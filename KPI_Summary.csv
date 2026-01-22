@@ -1,0 +1,11 @@
+Métrica,Valor
+Total de Tickets,1403
+Tasa de Completitud (%),62.8
+Tickets en Testing,172
+Total de Bugs,122
+Tasa Resolución Bugs (%),77.9
+Test Cases,145
+Test Executions,27
+Tickets Bloqueados,2
+MTTR Promedio (días),N/A
+MTTR Mediana (días),N/A
