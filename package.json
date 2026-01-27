@@ -17,7 +17,7 @@
         "ci:prepare": "npm run db:migrate && npm run generate-json"
     },
     "engines": {
-        "node": "18.x"
+        "node": "24.x"
     },
     "dependencies": {
         "chart.js": "^4.4.0",
