@@ -9,14 +9,14 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import http from 'http';
+import https from 'https';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Import DAL después de definir __dirname
 async function main() {
   try {
-    const DAL = (await import('../../lib/database/dal.js')).default;
-
     const JSON_OUTPUT_PATH = path.join(__dirname, '..', '..', 'public', 'data', 'qa-data.json');
     const DATA_DIR = path.dirname(JSON_OUTPUT_PATH);
 
@@ -29,9 +29,68 @@ async function main() {
       if (envDataSource === 'none') {
         DB_PATH = null;
       } else {
-        // Si es una ruta relativa, resolverla respecto al cwd
-        DB_PATH = path.isAbsolute(envDataSource) ? envDataSource : path.join(process.cwd(), envDataSource);
+        // Si es URL (http/https) la descargamos; si es ruta relativa, resolverla respecto al cwd
+        if (/^https?:\/\//i.test(envDataSource)) {
+          // destino local para la descarga
+          if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+          DB_PATH = path.join(DATA_DIR, 'qa-dashboard.db');
+
+          // Descargar si no existe localmente
+          if (!fs.existsSync(DB_PATH)) {
+            console.log(`⬇️ Descargando DB desde URL: ${envDataSource} -> ${DB_PATH}`);
+            await downloadFile(envDataSource, DB_PATH);
+            console.log(`✅ Descarga completada: ${DB_PATH}`);
+          } else {
+            console.log(`ℹ️ DB ya existe localmente, no se descargará: ${DB_PATH}`);
+          }
+        } else {
+          DB_PATH = path.isAbsolute(envDataSource) ? envDataSource : path.join(process.cwd(), envDataSource);
+        }
       }
+    }
+
+
+    // Si DATA_SOURCE == 'none' (DB_PATH === null) omitimos la carga de DAL y generamos/retomamos JSON mínimo
+    if (!DB_PATH) {
+      console.log(`ℹ️ DATA_SOURCE='none' configurado, se omitirá la generación desde SQLite.`);
+      if (fs.existsSync(JSON_OUTPUT_PATH)) {
+        console.log(`ℹ️ JSON existente encontrado en ${JSON_OUTPUT_PATH}, se mantiene.`);
+        process.exit(0);
+      }
+      if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+      const outputDataFallback = {
+        metadata: {
+          version: '1.0',
+          source: 'none',
+          generatedAt: new Date().toISOString(),
+          sprintsCount: 0,
+        },
+        sprintData: [],
+      };
+      fs.writeFileSync(JSON_OUTPUT_PATH, JSON.stringify(outputDataFallback, null, 2));
+      console.log(`✅ JSON mínimo generado: ${path.relative(process.cwd(), JSON_OUTPUT_PATH)}`);
+      process.exit(0);
+    }
+
+    // Si se ha descargado o señalado una DB local, exponerla a DAL mediante la variable de entorno
+    process.env.DATA_SOURCE = DB_PATH;
+
+    // Importar DAL después de preparar DATA_SOURCE para que DAL lea la variable al cargarse
+    const DAL = (await import('../../lib/database/dal.js')).default;
+
+    // helper: descarga un archivo HTTP/HTTPS a destino
+    function downloadFile(url, dest) {
+      return new Promise((resolve, reject) => {
+        const client = url.startsWith('https://') ? https : http;
+        const req = client.get(url, (res) => {
+          if (res.statusCode >= 400) return reject(new Error(`HTTP ${res.statusCode} - ${res.statusMessage}`));
+          const file = fs.createWriteStream(dest);
+          res.pipe(file);
+          file.on('finish', () => file.close(resolve));
+          file.on('error', (err) => reject(err));
+        });
+        req.on('error', (err) => reject(err));
+      });
     }
 
     console.log(`📁 Workspace: ${process.cwd()}`);

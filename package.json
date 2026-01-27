@@ -11,10 +11,10 @@
         "lint": "next lint",
         "db:init": "node lib/database/init.mjs",
         "db:migrate": "node scripts/migrateToSqlite.mjs",
-        "db:setup": "node scripts/setup-sqlite.mjs",
+        "db:setup": "node scripts/setup-sqlite.cjs",
         "db:verify": "node scripts/verify-setup.mjs",
         "db:info": "node scripts/show-data-source.mjs",
-        "ci:prepare": "npm run db:migrate && npm run generate-json"
+        "ci:prepare": "npm run db:migrate && npm run generate-json" 
     },
     "engines": {
         "node": "24.x"
