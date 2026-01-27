@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "generate-json": "node scripts/generate/generateQAJson.mjs",
+        "generate-json": "node scripts/generate/enrichQaJson.mjs",
         "dev": "next dev",
         "build": "npm run generate-json && next build",
         "vercel-build": "npm run build",
