@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-12-02T16:42:56.113Z",
+    "source": "sqlite",
+    "version": "2.0",
+    "sprints": [
+      "Sprint 0",
+      "Sprint 1",
+      "Sprint 2",
+      "Sprint 3",
+      "Sprint 4",
+      "Sprint 5",
+      "Sprint 6",
+      "Sprint 7",
+      "Sprint 8",
+      "Sprint 9",
+      "Sprint 10",
+      "Sprint 11",
+      "Sprint 12",
+      "Sprint 13",
+      "Sprint 14",
+      "Sprint 15",
+      "Sprint 16",
+      "Sprint 17",
+      "Sprint 18",
+      "Sprint 19",
+      "Sprint 20"
+    ]
+  },
+  "summary": {
+    "totalBugs": 1000,
+    "bugsClosed": 165,
+    "bugsPending": 835,
+    "testCasesTotal": 1000,
+    "testCasesExecuted": 1000,
+    "testCasesPassed": 165,
+    "testCasesFailed": 835
+  },
+  "bugsByPriority": {
+    "Alta": {
+      "count": 239,
+      "percentage": 24,
+      "pending": 0
+    },
+    "Baja": {
+      "count": 286,
+      "percentage": 29,
+      "pending": 0
+    },
+    "Media": {
+      "count": 316,
+      "percentage": 32,
+      "pending": 0
+    },
+    "M�s Alta": {
+      "count": 159,
+      "percentage": 16,
+      "pending": 0
+    }
+  },
+  "bugsByModule": {
+    "Integración": {
+      "count": 250,
+      "percentage": 25,
+      "pending": 0
+    },
+    "Funcional": {
+      "count": 400,
+      "percentage": 40,
+      "pending": 0
+    },
+    "UI/UX": {
+      "count": 200,
+      "percentage": 20,
+      "pending": 0
+    },
+    "Base de Datos": {
+      "count": 150,
+      "percentage": 15,
+      "pending": 0
+    }
+  },
+  "developerData": [
+    {
+      "name": "Mariana C�rdenas",
+      "assigned": 66,
+      "resolved": 11,
+      "pending": 55,
+      "totalBugs": 66,
+      "workload": "Alto"
+    },
+    {
+      "name": "Luc�a Fern�ndez",
+      "assigned": 58,
+      "resolved": 9,
+      "pending": 49,
+      "totalBugs": 58,
+      "workload": "Alto"
+    },
+    {
+      "name": "Gabriela Paredes",
+      "assigned": 57,
+      "resolved": 5,
+      "pending": 52,
+      "totalBugs": 57,
+      "workload": "Alto"
+    },
+    {
+      "name": "Pedro Cruz",
+      "assigned": 57,
+      "resolved": 9,
+      "pending": 48,
+      "totalBugs": 57,
+      "workload": "Alto"
+    },
+    {
+      "name": "Jorge Ram�rez",
+      "assigned": 56,
+      "resolved": 8,
+      "pending": 48,
+      "totalBugs": 56,
+      "workload": "Alto"
+    },
+    {
+      "name": "Laura Ortega",
+      "assigned": 56,
+      "resolved": 16,
+      "pending": 40,
+      "totalBugs": 56,
+      "workload": "Alto"
+    },
+    {
+      "name": "Sof�a Morales",
+      "assigned": 54,
+      "resolved": 10,
+      "pending": 44,
+      "totalBugs": 54,
+      "workload": "Alto"
+    },
+    {
+      "name": "Valentina Castillo",
+      "assigned": 52,
+      "resolved": 10,
+      "pending": 42,
+      "totalBugs": 52,
+      "workload": "Alto"
+    },
+    {
+      "name": "Ana L�pez",
+      "assigned": 51,
+      "resolved": 11,
+      "pending": 40,
+      "totalBugs": 51,
+      "workload": "Alto"
+    },
+    {
+      "name": "Camila Vargas",
+      "assigned": 49,
+      "resolved": 5,
+      "pending": 44,
+      "totalBugs": 49,
+      "workload": "Alto"
+    },
+    {
+      "name": "Miguel Herrera",
+      "assigned": 48,
+      "resolved": 9,
+      "pending": 39,
+      "totalBugs": 48,
+      "workload": "Alto"
+    },
+    {
+      "name": "Isabela Aguirre",
+      "assigned": 47,
+      "resolved": 8,
+      "pending": 39,
+      "totalBugs": 47,
+      "workload": "Alto"
+    },
+    {
+      "name": "Ra�l Espinosa",
+      "assigned": 47,
+      "resolved": 8,
+      "pending": 39,
+      "totalBugs": 47,
+      "workload": "Alto"
+    },
+    {
+      "name": "Daniela R�os",
+      "assigned": 45,
+      "resolved": 9,
+      "pending": 36,
+      "totalBugs": 45,
+      "workload": "Alto"
+    },
+    {
+      "name": "Esteban M�ndez",
+      "assigned": 45,
+      "resolved": 6,
+      "pending": 39,
+      "totalBugs": 45,
+      "workload": "Alto"
+    },
+    {
+      "name": "Sebasti�n Cort�s",
+      "assigned": 45,
+      "resolved": 8,
+      "pending": 37,
+      "totalBugs": 45,
+      "workload": "Alto"
+    },
+    {
+      "name": "Paula Navarro",
+      "assigned": 44,
+      "resolved": 2,
+      "pending": 42,
+      "totalBugs": 44,
+      "workload": "Alto"
+    },
+    {
+      "name": "Antonella Duque",
+      "assigned": 43,
+      "resolved": 10,
+      "pending": 33,
+      "totalBugs": 43,
+      "workload": "Alto"
+    },
+    {
+      "name": "Juan P�rez",
+      "assigned": 40,
+      "resolved": 6,
+      "pending": 34,
+      "totalBugs": 40,
+      "workload": "Alto"
+    },
+    {
+      "name": "Mateo Linares",
+      "assigned": 40,
+      "resolved": 5,
+      "pending": 35,
+      "totalBugs": 40,
+      "workload": "Alto"
+    }
+  ],
+  "sprintData": [
+    {
+      "sprint": "Sprint 0",
+      "bugs": 39,
+      "bugsResolved": 16,
+      "bugsPending": 23,
+      "testCases": 39,
+      "velocity": 33,
+      "plannedVelocity": 39,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 1",
+      "bugs": 46,
+      "bugsResolved": 9,
+      "bugsPending": 37,
+      "testCases": 46,
+      "velocity": 39,
+      "plannedVelocity": 46,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 2",
+      "bugs": 65,
+      "bugsResolved": 17,
+      "bugsPending": 48,
+      "testCases": 65,
+      "velocity": 55,
+      "plannedVelocity": 65,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 3",
+      "bugs": 39,
+      "bugsResolved": 9,
+      "bugsPending": 30,
+      "testCases": 39,
+      "velocity": 33,
+      "plannedVelocity": 39,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 4",
+      "bugs": 53,
+      "bugsResolved": 14,
+      "bugsPending": 39,
+      "testCases": 53,
+      "velocity": 45,
+      "plannedVelocity": 53,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 5",
+      "bugs": 53,
+      "bugsResolved": 16,
+      "bugsPending": 37,
+      "testCases": 53,
+      "velocity": 45,
+      "plannedVelocity": 53,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 6",
+      "bugs": 42,
+      "bugsResolved": 12,
+      "bugsPending": 30,
+      "testCases": 42,
+      "velocity": 36,
+      "plannedVelocity": 42,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 7",
+      "bugs": 60,
+      "bugsResolved": 17,
+      "bugsPending": 43,
+      "testCases": 60,
+      "velocity": 51,
+      "plannedVelocity": 60,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 8",
+      "bugs": 44,
+      "bugsResolved": 6,
+      "bugsPending": 38,
+      "testCases": 44,
+      "velocity": 37,
+      "plannedVelocity": 44,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 9",
+      "bugs": 46,
+      "bugsResolved": 0,
+      "bugsPending": 46,
+      "testCases": 46,
+      "velocity": 39,
+      "plannedVelocity": 46,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 10",
+      "bugs": 53,
+      "bugsResolved": 9,
+      "bugsPending": 44,
+      "testCases": 53,
+      "velocity": 45,
+      "plannedVelocity": 53,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 11",
+      "bugs": 47,
+      "bugsResolved": 12,
+      "bugsPending": 35,
+      "testCases": 47,
+      "velocity": 40,
+      "plannedVelocity": 47,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 12",
+      "bugs": 67,
+      "bugsResolved": 17,
+      "bugsPending": 50,
+      "testCases": 67,
+      "velocity": 57,
+      "plannedVelocity": 67,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 13",
+      "bugs": 65,
+      "bugsResolved": 11,
+      "bugsPending": 54,
+      "testCases": 65,
+      "velocity": 55,
+      "plannedVelocity": 65,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 14",
+      "bugs": 48,
+      "bugsResolved": 12,
+      "bugsPending": 36,
+      "testCases": 48,
+      "velocity": 41,
+      "plannedVelocity": 48,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 15",
+      "bugs": 48,
+      "bugsResolved": 10,
+      "bugsPending": 38,
+      "testCases": 48,
+      "velocity": 41,
+      "plannedVelocity": 48,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 16",
+      "bugs": 60,
+      "bugsResolved": 16,
+      "bugsPending": 44,
+      "testCases": 60,
+      "velocity": 51,
+      "plannedVelocity": 60,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 17",
+      "bugs": 40,
+      "bugsResolved": 15,
+      "bugsPending": 25,
+      "testCases": 40,
+      "velocity": 34,
+      "plannedVelocity": 40,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 18",
+      "bugs": 36,
+      "bugsResolved": 9,
+      "bugsPending": 27,
+      "testCases": 36,
+      "velocity": 31,
+      "plannedVelocity": 36,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 19",
+      "bugs": 25,
+      "bugsResolved": 10,
+      "bugsPending": 15,
+      "testCases": 25,
+      "velocity": 21,
+      "plannedVelocity": 25,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    },
+    {
+      "sprint": "Sprint 20",
+      "bugs": 24,
+      "bugsResolved": 2,
+      "bugsPending": 22,
+      "testCases": 24,
+      "velocity": 20,
+      "plannedVelocity": 24,
+      "change": 0,
+      "version": "V1.0",
+      "startDate": "TBD",
+      "environment": "PROD"
+    }
+  ],
+  "bugsByCategory": {
+    "Funcional": {
+      "count": 0,
+      "percentage": 0
+    },
+    "Look&Feel": {
+      "count": 0,
+      "percentage": 0
+    },
+    "Contenido/Datos": {
+      "count": 0,
+      "percentage": 0
+    },
+    "Integración": {
+      "count": 0,
+      "percentage": 0
+    }
+  },
+  "qualityMetrics": {
+    "testAutomation": 45,
+    "cycleTime": 5
+  },
+  "recommendations": {
+    "testCases": [
+      "Cobertura verificada desde SQLite con 1000 registros"
+    ],
+    "resolutionEfficiency": [
+      "Datos sincronizados con base de datos"
+    ],
+    "criticalBugs": [
+      "Monitoreo en tiempo real habilitado"
+    ]
+  },
+  "riskAreas": []
+}
