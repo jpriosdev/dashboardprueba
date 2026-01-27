@@ -1,0 +1,57 @@
+name: Publish QA SQLite DB to S3
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+  release:
+    types: [ published ]
+
+jobs:
+  upload-db:
+    name: Upload QA DB to S3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure DB exists
+        id: find_db
+        run: |
+          DB=public/data/qa-dashboard.db
+          if [ -f "$DB" ]; then
+            echo "DB_PATH=$DB" >> $GITHUB_ENV
+            echo "found=true" >> $GITHUB_ENV
+          else
+            echo "DB not found at $DB"
+            exit 1
+          fi
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Upload DB to S3
+        env:
+          BUCKET: ${{ secrets.S3_BUCKET }}
+          PREFIX: ${{ secrets.S3_KEY_PREFIX }}
+          REGION: ${{ secrets.AWS_REGION }}
+          PUBLIC: ${{ secrets.S3_PUBLIC }}
+        run: |
+          KEY="${PREFIX:+$PREFIX/}qa-dashboard.db"
+          echo "Uploading $DB_PATH to s3://$BUCKET/$KEY"
+          if [ "$PUBLIC" = "true" ]; then
+            aws s3 cp "$DB_PATH" "s3://$BUCKET/$KEY" --acl public-read
+          else
+            aws s3 cp "$DB_PATH" "s3://$BUCKET/$KEY"
+          fi
+          # Construct URL (regional); works for most buckets
+          URL="https://$BUCKET.s3.$REGION.amazonaws.com/$KEY"
+          echo "DB_S3_URL=$URL" >> $GITHUB_ENV
+
+      - name: Output uploaded URL
+        run: |
+          echo "Uploaded DB URL: $DB_S3_URL"
