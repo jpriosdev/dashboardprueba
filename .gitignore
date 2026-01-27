@@ -42,7 +42,7 @@ Thumbs.db
 coverage/
 
 # Generated / local data (do not commit local DBs or generated JSON)
-public/data/*.db
+#public/data/*.db
 public/data/qa-data.json
 tmp/
 temp-validation/
