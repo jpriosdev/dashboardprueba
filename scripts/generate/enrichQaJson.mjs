@@ -36,6 +36,11 @@ async function writeDebug(data) {
     await fs.mkdir(path.dirname(DEBUG_PATH), { recursive: true });
     await fs.writeFile(DEBUG_PATH, JSON.stringify(debug, null, 2), 'utf8');
     console.log('ℹ️  Build debug written to', DEBUG_PATH);
+    try {
+      console.log('ℹ️  Build debug content:', JSON.stringify(debug));
+    } catch (e) {
+      console.log('⚠️  Could not stringify debug for logs:', e && e.message);
+    }
   } catch (e) {
     console.warn('⚠️  Could not write build debug file:', e && e.message);
   }
