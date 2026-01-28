@@ -19,6 +19,6 @@ const nextConfig = {
     // Evitar errores de pre-rendering en Vercel
     staticPageGenerationTimeout: undefined,
   }
-  
-  module.exports = nextConfig
+
+  export default nextConfig
   
