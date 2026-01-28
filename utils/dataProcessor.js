@@ -14,6 +14,16 @@ export class QADataProcessor {
    * @returns {Object} Processed data with KPIs, trends, alerts, recommendations
    */
   static processQAData(rawData, config = {}) {
+    if (process.env.DEBUG_QA === 'true') {
+      try {
+        console.log('DEBUG_QA: processQAData called');
+        console.log('DEBUG_QA: rawData.sprintData length', Array.isArray(rawData?.sprintData) ? rawData.sprintData.length : 'no-array');
+        try {
+          const preview = Array.isArray(rawData?.sprintData) ? rawData.sprintData.slice(0, 2) : rawData?.sprintData;
+          console.log('DEBUG_QA: processQAData sprintData preview:', JSON.stringify(preview));
+        } catch (e) {}
+      } catch (e) {}
+    }
     // Default configuration with sensible thresholds
     const defaultConfig = {
       weights: {

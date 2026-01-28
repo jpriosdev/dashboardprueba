@@ -15,3 +15,14 @@ export default function QADashboardPage() {
   );
 }
 
+// Force SSG: fetch QA data at build time so Next generates a static HTML for this page
+export async function getStaticProps() {
+  try {
+    const loader = await import('../lib/qaDataLoader.js');
+    const data = await loader.getQAData({ forceReload: false });
+    return { props: { initialQAData: data || null } };
+  } catch (e) {
+    return { props: { initialQAData: null } };
+  }
+}
+
