@@ -67,6 +67,19 @@ async function main(){
     console.log('🔁 Enriching QA JSON (force reload)');
     const data = await getQAData({ forceReload: true });
     const detectedSource = data?._sourceFile || data?.metadata?.sourceFilePath || process.env.DATA_SOURCE || null;
+    // If we detected a source file on disk, log its size and a short preview to help debug build cache issues
+    if (detectedSource) {
+      try {
+        const srcPath = detectedSource;
+        const stat = await fs.stat(srcPath);
+        const txt = await fs.readFile(srcPath, 'utf8');
+        console.log('ℹ️  Detected source file size:', stat.size);
+        console.log('ℹ️  Detected source preview (first 800 chars):\n', txt.slice(0, 800));
+      } catch (e) {
+        // ignore read errors - best effort logging
+        console.log('⚠️  Could not read detected source file for preview:', e && e.message);
+      }
+    }
     if (data) {
       console.log('✅ QA JSON enriched. Sprints:', (data.sprintData && data.sprintData.length) || 0);
       if (detectedSource) console.log('ℹ️  Detected QA source:', detectedSource);
