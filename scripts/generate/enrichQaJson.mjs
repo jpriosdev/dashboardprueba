@@ -5,6 +5,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 
 const DEBUG_PATH = path.join(process.cwd(), 'public', 'data', 'build-debug.json');
+const ROOT_DEBUG_PATH = path.join(process.cwd(), 'build-debug.json');
 
 async function writeDebug(data) {
   const debug = {
@@ -42,6 +43,12 @@ async function writeDebug(data) {
       debug.fallbackSample = data._fallbackSample || null;
     }
     await fs.writeFile(DEBUG_PATH, JSON.stringify(debug, null, 2), 'utf8');
+    try {
+      await fs.writeFile(ROOT_DEBUG_PATH, JSON.stringify(debug, null, 2), 'utf8');
+      console.log('ℹ️  Build debug also written to', ROOT_DEBUG_PATH);
+    } catch (e) {
+      // ignore root write errors
+    }
     console.log('ℹ️  Build debug written to', DEBUG_PATH);
     if (debug.dataSource) console.log('ℹ️  QA data source:', debug.dataSource);
     if (debug.fallbackSample) console.log('ℹ️  QA fallback sample:', JSON.stringify(debug.fallbackSample));
