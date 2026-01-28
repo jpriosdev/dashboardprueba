@@ -21,6 +21,7 @@ async function writeDebug(data) {
     },
     git: {},
     dataSource: null,
+    fallbackSample: null,
     qaSummary: {
       sprints: (data?.sprintData && data.sprintData.length) || 0,
       totalBugs: data?.summary?.totalBugs || data?.summary?.total_bugs || null
@@ -35,9 +36,15 @@ async function writeDebug(data) {
 
   try {
     await fs.mkdir(path.dirname(DEBUG_PATH), { recursive: true });
+    // if data was provided, include detected source and fallback sample
+    if (data) {
+      debug.dataSource = data._sourceFile || null;
+      debug.fallbackSample = data._fallbackSample || null;
+    }
     await fs.writeFile(DEBUG_PATH, JSON.stringify(debug, null, 2), 'utf8');
     console.log('ℹ️  Build debug written to', DEBUG_PATH);
     if (debug.dataSource) console.log('ℹ️  QA data source:', debug.dataSource);
+    if (debug.fallbackSample) console.log('ℹ️  QA fallback sample:', JSON.stringify(debug.fallbackSample));
     try {
       console.log('ℹ️  Build debug content:', JSON.stringify(debug));
     } catch (e) {
@@ -56,9 +63,12 @@ async function main(){
     if (data) {
       console.log('✅ QA JSON enriched. Sprints:', (data.sprintData && data.sprintData.length) || 0);
       if (detectedSource) console.log('ℹ️  Detected QA source:', detectedSource);
-      // attach source into debug payload
-      data._sourceFile = data._sourceFile || detectedSource || null;
-      await writeDebug(data);
+        // attach source and sample into debug payload
+        data._sourceFile = data._sourceFile || detectedSource || null;
+        // if DAL provided a fallback sample, prefer that
+        data._fallbackSample = data._fallbackSample || (data.sprintData ? data.sprintData.slice(0,2) : null) || null;
+        if (data._fallbackSample) console.log('ℹ️  Fallback sample sprints:', JSON.stringify(data._fallbackSample));
+        await writeDebug(data);
       process.exit(0);
     }
     console.error('❌ No data returned from getQAData');
