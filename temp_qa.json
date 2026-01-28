@@ -1,0 +1,166 @@
+{
+  "summary": {},
+  "sprintData": [],
+  "bugs": [],
+  "developerData": [],
+  "bugsByPriority": {},
+  "bugsByModule": [],
+  "bugsByCategory": [],
+  "metadata": {
+    "processedAt": "2026-01-28T04:21:57.965Z",
+    "version": "2.0",
+    "configUsed": {
+      "weights": {
+        "resolutionRate": 0.3,
+        "testCoverage": 0.25,
+        "bugDensity": 0.2,
+        "criticalBugs": 0.25
+      },
+      "thresholds": {
+        "criticalBugsAlert": 20,
+        "maxBugsDeveloper": 15,
+        "criticalModulePercentage": 60,
+        "minTestCoverage": 80,
+        "maxBugTrendIncrease": 20,
+        "maxDefectDensity": 0.1,
+        "minResolutionEfficiency": 70,
+        "maxCriticalBugsRatio": 20
+      },
+      "priorities": {
+        "critical": [
+          "Más alta",
+          "Alta"
+        ],
+        "high": [
+          "Media"
+        ],
+        "low": [
+          "Baja",
+          "Más baja"
+        ]
+      },
+      "modules": {
+        "POS": {
+          "weight": 0.4,
+          "criticalThreshold": 50
+        },
+        "Inventory": {
+          "weight": 0.3,
+          "criticalThreshold": 40
+        },
+        "Reports": {
+          "weight": 0.2,
+          "criticalThreshold": 30
+        },
+        "Admin": {
+          "weight": 0.1,
+          "criticalThreshold": 20
+        }
+      }
+    },
+    "processor": "QADataProcessor"
+  },
+  "_sourceFile": "/vercel/path0/public/data/qa-data.json",
+  "kpis": {
+    "avgTestCasesPerSprint": 0,
+    "resolutionEfficiency": 0,
+    "qualityIndex": 75,
+    "sprintTrend": 0,
+    "defectDensity": 0,
+    "criticalBugsRatio": 0,
+    "averageResolutionTime": 7,
+    "testExecutionRate": 0,
+    "bugLeakageRate": 0,
+    "testCoverageTrend": -4,
+    "resolutionTrend": 9,
+    "criticalBugsTrend": -5,
+    "velocityTrend": [],
+    "burndownEfficiency": 0,
+    "reworkRate": 0,
+    "firstPassYield": 0,
+    "escapeRate": 0
+  },
+  "trends": {
+    "bugsPerSprint": [],
+    "resolutionRate": [],
+    "qualityImprovement": [],
+    "velocityTrend": [],
+    "testCoverageTrend": [],
+    "defectDensityTrend": []
+  },
+  "alerts": [
+    {
+      "id": "low-test-coverage",
+      "type": "warning",
+      "title": "Low Test Coverage",
+      "message": "Test coverage is 0%, below minimum required (80%)",
+      "action": "Increase test cases and automation",
+      "priority": 2,
+      "createdAt": "2026-01-28T04:21:57.937Z",
+      "module": "test-coverage"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "improve-test-coverage",
+      "type": "quality",
+      "title": "Improve Test Coverage",
+      "description": "Current coverage is 0%. Recommended to reach at least 80%",
+      "impact": "high",
+      "effort": "medium",
+      "estimatedDays": 14,
+      "category": "testing"
+    },
+    {
+      "id": "increase-automation",
+      "type": "efficiency",
+      "title": "Increase Automation",
+      "description": "Current automation: 0%. Goal: 80% to improve efficiency",
+      "impact": "high",
+      "effort": "high",
+      "estimatedDays": 45,
+      "category": "automation"
+    }
+  ],
+  "predictions": [
+    {
+      "metric": "Bugs Próximo Sprint",
+      "value": 0,
+      "trend": "down",
+      "confidence": 60
+    },
+    {
+      "metric": "Tiempo Resolución",
+      "value": "7 días",
+      "trend": "stable",
+      "confidence": 85
+    },
+    {
+      "metric": "Quality Index",
+      "value": "75%",
+      "trend": "stable",
+      "confidence": 60
+    }
+  ],
+  "processMaturity": {
+    "current": "1/5",
+    "currentLevel": "Inicial",
+    "currentScore": 1,
+    "q1Target": "4/5 (Gestionado Cuantitativamente)",
+    "yearTarget": "5/5 (Optimizado)",
+    "milestones": [
+      "Automatización 20% (actual: 0%)",
+      "Reducir tiempo ciclo a 1.5 días",
+      "Implement predictive metrics",
+      "Establish quality baseline",
+      "Optimización continua"
+    ]
+  },
+  "roi": {
+    "earlyDetection": "0",
+    "velocityImprovement": "15",
+    "hotfixReduction": "80",
+    "costSavings": 0,
+    "roi": null
+  }
+}

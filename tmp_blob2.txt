@@ -1,0 +1,823 @@
+﻿{
+  "summary": {},
+  "sprintData": [],
+  "bugs": [],
+  "developerData": [],
+  {
+    "summary": {
+      "totalBugs": 1000,
+      "bugsClosed": 165,
+      "bugsPending": 835,
+      "testCasesTotal": 1000,
+      "testCasesExecuted": 1000,
+      "testCasesPassed": 165,
+      "testCasesFailed": 835
+    },
+    "sprintData": [
+      {
+        "sprint": "Sprint 0",
+        "bugs": 39,
+        "bugsResolved": 16,
+        "bugsPending": 23,
+        "testCases": 39,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 1",
+        "bugs": 46,
+        "bugsResolved": 9,
+        "bugsPending": 37,
+        "testCases": 46,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 2",
+        "bugs": 65,
+        "bugsResolved": 17,
+        "bugsPending": 48,
+        "testCases": 65,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 3",
+        "bugs": 39,
+        "bugsResolved": 9,
+        "bugsPending": 30,
+        "testCases": 39,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 4",
+        "bugs": 53,
+        "bugsResolved": 14,
+        "bugsPending": 39,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 5",
+        "bugs": 53,
+        "bugsResolved": 16,
+        "bugsPending": 37,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 6",
+        "bugs": 42,
+        "bugsResolved": 12,
+        "bugsPending": 30,
+        "testCases": 42,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 7",
+        "bugs": 60,
+        "bugsResolved": 17,
+        "bugsPending": 43,
+        "testCases": 60,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 8",
+        "bugs": 44,
+        "bugsResolved": 6,
+        "bugsPending": 38,
+        "testCases": 44,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 9",
+        "bugs": 46,
+        "bugsResolved": 0,
+        "bugsPending": 46,
+        "testCases": 46,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 10",
+        "bugs": 53,
+        "bugsResolved": 9,
+        "bugsPending": 44,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 11",
+        "bugs": 47,
+        "bugsResolved": 12,
+        "bugsPending": 35,
+        "testCases": 47,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 12",
+        "bugs": 67,
+        "bugsResolved": 17,
+        "bugsPending": 50,
+        "testCases": 67,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 13",
+        "bugs": 65,
+        "bugsResolved": 11,
+        "bugsPending": 54,
+        "testCases": 65,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 14",
+        "bugs": 48,
+        "bugsResolved": 12,
+        "bugsPending": 36,
+        "testCases": 48,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 15",
+        "bugs": 48,
+        "bugsResolved": 10,
+        "bugsPending": 38,
+        "testCases": 48,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 16",
+        "bugs": 60,
+        "bugsResolved": 16,
+        "bugsPending": 44,
+        "testCases": 60,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 17",
+        "bugs": 40,
+        "bugsResolved": 15,
+        "bugsPending": 25,
+        "testCases": 40,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 18",
+        "bugs": 36,
+        "bugsResolved": 9,
+        "bugsPending": 27,
+        "testCases": 36,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 19",
+        "bugs": 25,
+        "bugsResolved": 10,
+        "bugsPending": 15,
+        "testCases": 25,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
+      {
+        "sprint": "Sprint 20",
+        "bugs": 24,
+        "bugsResolved": 2,
+        "bugsPending": 22,
+        "testCases": 24,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      }
+    ],
+    "bugs": [],
+    "developerData": [
+      {
+        "name": "Mariana C├írdenas",
+        "assigned": 66,
+        "resolved": 11,
+        "pending": 55,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Luc├¡a Fern├índez",
+        "assigned": 58,
+        "resolved": 9,
+        "pending": 49,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Gabriela Paredes",
+        "assigned": 57,
+        "resolved": 5,
+        "pending": 52,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Pedro Cruz",
+        "assigned": 57,
+        "resolved": 9,
+        "pending": 48,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Jorge Ram├¡rez",
+        "assigned": 56,
+        "resolved": 8,
+        "pending": 48,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Laura Ortega",
+        "assigned": 56,
+        "resolved": 16,
+        "pending": 40,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Sof├¡a Morales",
+        "assigned": 54,
+        "resolved": 10,
+        "pending": 44,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Valentina Castillo",
+        "assigned": 52,
+        "resolved": 10,
+        "pending": 42,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Ana L├│pez",
+        "assigned": 51,
+        "resolved": 11,
+        "pending": 40,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Camila Vargas",
+        "assigned": 49,
+        "resolved": 5,
+        "pending": 44,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Miguel Herrera",
+        "assigned": 48,
+        "resolved": 9,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Isabela Aguirre",
+        "assigned": 47,
+        "resolved": 8,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Ra├║l Espinosa",
+        "assigned": 47,
+        "resolved": 8,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Daniela R├¡os",
+        "assigned": 45,
+        "resolved": 9,
+        "pending": 36,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Esteban M├⌐ndez",
+        "assigned": 45,
+        "resolved": 6,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Sebasti├ín Cort├⌐s",
+        "assigned": 45,
+        "resolved": 8,
+        "pending": 37,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Paula Navarro",
+        "assigned": 44,
+        "resolved": 2,
+        "pending": 42,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Antonella Duque",
+        "assigned": 43,
+        "resolved": 10,
+        "pending": 33,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Juan P├⌐rez",
+        "assigned": 40,
+        "resolved": 6,
+        "pending": 34,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      },
+      {
+        "name": "Mateo Linares",
+        "assigned": 40,
+        "resolved": 5,
+        "pending": 35,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
+      }
+    ],
+    "bugsByPriority": {
+      "Alta": {
+        "count": 239,
+        "percentage": 24,
+        "pending": 0
+      },
+      "Baja": {
+        "count": 286,
+        "percentage": 29,
+        "pending": 0
+      },
+      "Media": {
+        "count": 316,
+        "percentage": 32,
+        "pending": 0
+      },
+      "M├ís Alta": {
+        "count": 159,
+        "percentage": 16,
+        "pending": 0
+      }
+    },
+    "bugsByModule": {
+      "Integraci├│n": {
+        "count": 250,
+        "percentage": 25,
+        "pending": 0
+      },
+      "Funcional": {
+        "count": 400,
+        "percentage": 40,
+        "pending": 0
+      },
+      "UI/UX": {
+        "count": 200,
+        "percentage": 20,
+        "pending": 0
+      },
+      "Base de Datos": {
+        "count": 150,
+        "percentage": 15,
+        "pending": 0
+      }
+    },
+    "bugsByCategory": {
+      "Funcional": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Look&Feel": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Contenido/Datos": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Integraci├│n": {
+        "count": 0,
+        "percentage": 0
+      }
+    },
+    "metadata": {
+      "processedAt": "2026-01-28T04:06:49.544Z",
+      "version": "2.0",
+      "configUsed": {
+        "weights": {
+          "resolutionRate": 0.3,
+          "testCoverage": 0.25,
+          "bugDensity": 0.2,
+          "criticalBugs": 0.25
+        },
+        "thresholds": {
+          "criticalBugsAlert": 20,
+          "maxBugsDeveloper": 15,
+          "criticalModulePercentage": 60,
+          "minTestCoverage": 80,
+          "maxBugTrendIncrease": 20,
+          "maxDefectDensity": 0.1,
+          "minResolutionEfficiency": 70,
+          "maxCriticalBugsRatio": 20
+        },
+        "priorities": {
+          "critical": [
+            "M├ís alta",
+            "Alta"
+          ],
+          "high": [
+            "Media"
+          ],
+          "low": [
+            "Baja",
+            "M├ís baja"
+          ]
+        },
+        "modules": {
+          "POS": {
+            "weight": 0.4,
+            "criticalThreshold": 50
+          },
+          "Inventory": {
+            "weight": 0.3,
+            "criticalThreshold": 40
+          },
+          "Reports": {
+            "weight": 0.2,
+            "criticalThreshold": 30
+          },
+          "Admin": {
+            "weight": 0.1,
+            "criticalThreshold": 20
+          }
+        }
+      },
+      "processor": "QADataProcessor"
+    },
+    "_sourceFile": null,
+    "kpis": {
+      "avgTestCasesPerSprint": 48,
+      "resolutionEfficiency": 17,
+      "qualityIndex": 59,
+      "sprintTrend": -38,
+      "defectDensity": "1.00",
+      "criticalBugsRatio": 24,
+      "averageResolutionTime": 1.2,
+      "testExecutionRate": 100,
+      "bugLeakageRate": 0,
+      "testCoverageTrend": -3,
+      "resolutionTrend": 7,
+      "criticalBugsTrend": -5,
+      "velocityTrend": [
+        { "sprint": "Sprint 0", "velocity": 33, "planned": 39, "efficiency": 85 },
+        { "sprint": "Sprint 1", "velocity": 39, "planned": 46, "efficiency": 85 },
+        { "sprint": "Sprint 2", "velocity": 55, "planned": 65, "efficiency": 85 },
+        { "sprint": "Sprint 3", "velocity": 33, "planned": 39, "efficiency": 85 },
+        { "sprint": "Sprint 4", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 5", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 6", "velocity": 36, "planned": 42, "efficiency": 86 },
+        { "sprint": "Sprint 7", "velocity": 51, "planned": 60, "efficiency": 85 },
+        { "sprint": "Sprint 8", "velocity": 37, "planned": 44, "efficiency": 84 },
+        { "sprint": "Sprint 9", "velocity": 39, "planned": 46, "efficiency": 85 },
+        { "sprint": "Sprint 10", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 11", "velocity": 40, "planned": 47, "efficiency": 85 },
+        { "sprint": "Sprint 12", "velocity": 57, "planned": 67, "efficiency": 85 },
+        { "sprint": "Sprint 13", "velocity": 55, "planned": 65, "efficiency": 85 },
+        { "sprint": "Sprint 14", "velocity": 41, "planned": 48, "efficiency": 85 },
+        { "sprint": "Sprint 15", "velocity": 41, "planned": 48, "efficiency": 85 },
+        { "sprint": "Sprint 16", "velocity": 51, "planned": 60, "efficiency": 85 },
+        { "sprint": "Sprint 17", "velocity": 34, "planned": 40, "efficiency": 85 },
+        { "sprint": "Sprint 18", "velocity": 31, "planned": 36, "efficiency": 86 },
+        { "sprint": "Sprint 19", "velocity": 21, "planned": 25, "efficiency": 84 },
+        { "sprint": "Sprint 20", "velocity": 20, "planned": 24, "efficiency": 83 }
+      ],
+      "burndownEfficiency": 85,
+      "reworkRate": 15,
+      "firstPassYield": 17,
+      "escapeRate": 0
+    },
+    "trends": {
+      "bugsPerSprint": [
+        { "sprint": "Sprint 0", "bugs": 39, "trend": 0, "resolved": 16, "pending": 23 },
+        { "sprint": "Sprint 1", "bugs": 46, "trend": 0, "resolved": 9, "pending": 37 },
+        { "sprint": "Sprint 2", "bugs": 65, "trend": 0, "resolved": 17, "pending": 48 },
+        { "sprint": "Sprint 3", "bugs": 39, "trend": 0, "resolved": 9, "pending": 30 },
+        { "sprint": "Sprint 4", "bugs": 53, "trend": 0, "resolved": 14, "pending": 39 },
+        { "sprint": "Sprint 5", "bugs": 53, "trend": 0, "resolved": 16, "pending": 37 },
+        { "sprint": "Sprint 6", "bugs": 42, "trend": 0, "resolved": 12, "pending": 30 },
+        { "sprint": "Sprint 7", "bugs": 60, "trend": 0, "resolved": 17, "pending": 43 },
+        { "sprint": "Sprint 8", "bugs": 44, "trend": 0, "resolved": 6, "pending": 38 },
+        { "sprint": "Sprint 9", "bugs": 46, "trend": 0, "resolved": 0, "pending": 46 },
+        { "sprint": "Sprint 10", "bugs": 53, "trend": 0, "resolved": 9, "pending": 44 },
+        { "sprint": "Sprint 11", "bugs": 47, "trend": 0, "resolved": 12, "pending": 35 },
+        { "sprint": "Sprint 12", "bugs": 67, "trend": 0, "resolved": 17, "pending": 50 },
+        { "sprint": "Sprint 13", "bugs": 65, "trend": 0, "resolved": 11, "pending": 54 },
+        { "sprint": "Sprint 14", "bugs": 48, "trend": 0, "resolved": 12, "pending": 36 },
+        { "sprint": "Sprint 15", "bugs": 48, "trend": 0, "resolved": 10, "pending": 38 },
+        { "sprint": "Sprint 16", "bugs": 60, "trend": 0, "resolved": 16, "pending": 44 },
+        { "sprint": "Sprint 17", "bugs": 40, "trend": 0, "resolved": 15, "pending": 25 },
+        { "sprint": "Sprint 18", "bugs": 36, "trend": 0, "resolved": 9, "pending": 27 },
+        { "sprint": "Sprint 19", "bugs": 25, "trend": 0, "resolved": 10, "pending": 15 },
+        { "sprint": "Sprint 20", "bugs": 24, "trend": 0, "resolved": 2, "pending": 22 }
+      ],
+      "resolutionRate": [
+        { "sprint": "Sprint 0", "resolved": 16, "pending": 23, "rate": 41, "total": 39 },
+        { "sprint": "Sprint 1", "resolved": 9, "pending": 37, "rate": 20, "total": 46 },
+        { "sprint": "Sprint 2", "resolved": 17, "pending": 48, "rate": 26, "total": 65 },
+        { "sprint": "Sprint 3", "resolved": 9, "pending": 30, "rate": 23, "total": 39 },
+        { "sprint": "Sprint 4", "resolved": 14, "pending": 39, "rate": 26, "total": 53 },
+        { "sprint": "Sprint 5", "resolved": 16, "pending": 37, "rate": 30, "total": 53 },
+        { "sprint": "Sprint 6", "resolved": 12, "pending": 30, "rate": 29, "total": 42 },
+        { "sprint": "Sprint 7", "resolved": 17, "pending": 43, "rate": 28, "total": 60 },
+        { "sprint": "Sprint 8", "resolved": 6, "pending": 38, "rate": 14, "total": 44 },
+        { "sprint": "Sprint 9", "resolved": 0, "pending": 46, "rate": 0, "total": 46 },
+        { "sprint": "Sprint 10", "resolved": 9, "pending": 44, "rate": 17, "total": 53 },
+        { "sprint": "Sprint 11", "resolved": 12, "pending": 35, "rate": 26, "total": 47 },
+        { "sprint": "Sprint 12", "resolved": 17, "pending": 50, "rate": 25, "total": 67 },
+        { "sprint": "Sprint 13", "resolved": 11, "pending": 54, "rate": 17, "total": 65 },
+        { "sprint": "Sprint 14", "resolved": 12, "pending": 36, "rate": 25, "total": 48 },
+        { "sprint": "Sprint 15", "resolved": 10, "pending": 38, "rate": 21, "total": 48 },
+        { "sprint": "Sprint 16", "resolved": 16, "pending": 44, "rate": 27, "total": 60 },
+        { "sprint": "Sprint 17", "resolved": 15, "pending": 25, "rate": 38, "total": 40 },
+        { "sprint": "Sprint 18", "resolved": 9, "pending": 27, "rate": 25, "total": 36 },
+        { "sprint": "Sprint 19", "resolved": 10, "pending": 15, "rate": 40, "total": 25 },
+        { "sprint": "Sprint 20", "resolved": 2, "pending": 22, "rate": 8, "total": 24 }
+      ],
+      "qualityImprovement": [
+        { "sprint": "Sprint 0", "quality": 30, "bugs": 39, "testCases": 39 },
+        { "sprint": "Sprint 1", "quality": 15, "bugs": 46, "testCases": 46 },
+        { "sprint": "Sprint 2", "quality": 0, "bugs": 65, "testCases": 65 },
+        { "sprint": "Sprint 3", "quality": 28, "bugs": 39, "testCases": 39 },
+        { "sprint": "Sprint 4", "quality": 2, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 5", "quality": 2, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 6", "quality": 23, "bugs": 42, "testCases": 42 },
+        { "sprint": "Sprint 7", "quality": 0, "bugs": 60, "testCases": 60 },
+        { "sprint": "Sprint 8", "quality": 18, "bugs": 44, "testCases": 44 },
+        { "sprint": "Sprint 9", "quality": 13, "bugs": 46, "testCases": 46 },
+        { "sprint": "Sprint 10", "quality": 1, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 11", "quality": 13, "bugs": 47, "testCases": 47 },
+        { "sprint": "Sprint 12", "quality": 0, "bugs": 67, "testCases": 67 },
+        { "sprint": "Sprint 13", "quality": 0, "bugs": 65, "testCases": 65 },
+        { "sprint": "Sprint 14", "quality": 11, "bugs": 48, "testCases": 48 },
+        { "sprint": "Sprint 15", "quality": 11, "bugs": 48, "testCases": 48 },
+        { "sprint": "Sprint 16", "quality": 0, "bugs": 60, "testCases": 60 },
+        { "sprint": "Sprint 17", "quality": 28, "bugs": 40, "testCases": 40 },
+        { "sprint": "Sprint 18", "quality": 34, "bugs": 36, "testCases": 36 },
+        { "sprint": "Sprint 19", "quality": 57, "bugs": 25, "testCases": 25 },
+        { "sprint": "Sprint 20", "quality": 55, "bugs": 24, "testCases": 24 }
+      ],
+      "velocityTrend": [
+        { "sprint": "Sprint 0", "velocity": 33, "change": 0 },
+        { "sprint": "Sprint 1", "velocity": 39, "change": 18 },
+        { "sprint": "Sprint 2", "velocity": 55, "change": 41 },
+        { "sprint": "Sprint 3", "velocity": 33, "change": -40 },
+        { "sprint": "Sprint 4", "velocity": 45, "change": 36 },
+        { "sprint": "Sprint 5", "velocity": 45, "change": 0 },
+        { "sprint": "Sprint 6", "velocity": 36, "change": -20 },
+        { "sprint": "Sprint 7", "velocity": 51, "change": 42 },
+        { "sprint": "Sprint 8", "velocity": 37, "change": -27 },
+        { "sprint": "Sprint 9", "velocity": 39, "change": 5 },
+        { "sprint": "Sprint 10", "velocity": 45, "change": 15 },
+        { "sprint": "Sprint 11", "velocity": 40, "change": -11 },
+        { "sprint": "Sprint 12", "velocity": 57, "change": 43 },
+        { "sprint": "Sprint 13", "velocity": 55, "change": -4 },
+        { "sprint": "Sprint 14", "velocity": 41, "change": -25 },
+        { "sprint": "Sprint 15", "velocity": 41, "change": 0 },
+        { "sprint": "Sprint 16", "velocity": 51, "change": 24 },
+        { "sprint": "Sprint 17", "velocity": 34, "change": -33 },
+        { "sprint": "Sprint 18", "velocity": 31, "change": -9 },
+        { "sprint": "Sprint 19", "velocity": 21, "change": -32 },
+        { "sprint": "Sprint 20", "velocity": 20, "change": -5 }
+      ],
+      "testCoverageTrend": [
+        { "sprint": "Sprint 0", "coverage": 39, "executed": 39 },
+        { "sprint": "Sprint 1", "coverage": 46, "executed": 46 },
+        { "sprint": "Sprint 2", "coverage": 65, "executed": 65 },
+        { "sprint": "Sprint 3", "coverage": 39, "executed": 39 },
+        { "sprint": "Sprint 4", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 5", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 6", "coverage": 42, "executed": 42 },
+        { "sprint": "Sprint 7", "coverage": 60, "executed": 60 },
+        { "sprint": "Sprint 8", "coverage": 44, "executed": 44 },
+        { "sprint": "Sprint 9", "coverage": 46, "executed": 46 },
+        { "sprint": "Sprint 10", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 11", "coverage": 47, "executed": 47 },
+        { "sprint": "Sprint 12", "coverage": 67, "executed": 67 },
+        { "sprint": "Sprint 13", "coverage": 65, "executed": 65 },
+        { "sprint": "Sprint 14", "coverage": 48, "executed": 48 },
+        { "sprint": "Sprint 15", "coverage": 48, "executed": 48 },
+        { "sprint": "Sprint 16", "coverage": 60, "executed": 60 },
+        { "sprint": "Sprint 17", "coverage": 40, "executed": 40 },
+        { "sprint": "Sprint 18", "coverage": 36, "executed": 36 },
+        { "sprint": "Sprint 19", "coverage": 25, "executed": 25 },
+        { "sprint": "Sprint 20", "coverage": 24, "executed": 24 }
+      ],
+      "defectDensityTrend": [
+        { "sprint": "Sprint 0", "density": 1, "bugs": 39, "tests": 39 },
+        { "sprint": "Sprint 1", "density": 1, "bugs": 46, "tests": 46 },
+        { "sprint": "Sprint 2", "density": 1, "bugs": 65, "tests": 65 },
+        { "sprint": "Sprint 3", "density": 1, "bugs": 39, "tests": 39 },
+        { "sprint": "Sprint 4", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 5", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 6", "density": 1, "bugs": 42, "tests": 42 },
+        { "sprint": "Sprint 7", "density": 1, "bugs": 60, "tests": 60 },
+        { "sprint": "Sprint 8", "density": 1, "bugs": 44, "tests": 44 },
+        { "sprint": "Sprint 9", "density": 1, "bugs": 46, "tests": 46 },
+        { "sprint": "Sprint 10", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 11", "density": 1, "bugs": 47, "tests": 47 },
+        { "sprint": "Sprint 12", "density": 1, "bugs": 67, "tests": 67 },
+        { "sprint": "Sprint 13", "density": 1, "bugs": 65, "tests": 65 },
+        { "sprint": "Sprint 14", "density": 1, "bugs": 48, "tests": 48 },
+        { "sprint": "Sprint 15", "density": 1, "bugs": 48, "tests": 48 },
+        { "sprint": "Sprint 16", "density": 1, "bugs": 60, "tests": 60 },
+        { "sprint": "Sprint 17", "density": 1, "bugs": 40, "tests": 40 },
+        { "sprint": "Sprint 18", "density": 1, "bugs": 36, "tests": 36 },
+        { "sprint": "Sprint 19", "density": 1, "bugs": 25, "tests": 25 },
+        { "sprint": "Sprint 20", "density": 1, "bugs": 24, "tests": 24 }
+      ]
+    },
+    "alerts": [
+      {
+        "id": "developer-overload",
+        "type": "warning",
+        "title": "Bug Concentration",
+        "message": "Mariana C├írdenas has 55 pending bugs",
+        "action": "Consider load redistribution",
+        "priority": 2,
+        "createdAt": "2026-01-28T04:06:49.511Z",
+        "module": "team-management"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "increase-automation",
+        "type": "efficiency",
+        "title": "Increase Automation",
+        "description": "Current automation: 0%. Goal: 80% to improve efficiency",
+        "impact": "high",
+        "effort": "high",
+        "estimatedDays": 45,
+        "category": "automation"
+      },
+      {
+        "id": "reduce-defect-density",
+        "type": "quality",
+        "title": "Reduce Defect Density",
+        "description": "Current density is 1.00. Implement stricter code reviews",
+        "impact": "medium",
+        "effort": "medium",
+        "estimatedDays": 21,
+        "category": "code-quality"
+      },
+      {
+        "id": "balance-workload",
+        "type": "team",
+        "title": "Balance Workload",
+        "description": "Mariana C├írdenas is overloaded. Redistribute bugs among the team",
+        "impact": "medium",
+        "effort": "low",
+        "estimatedDays": 3,
+        "category": "team-management"
+      }
+    ],
+    "predictions": [
+      { "metric": "Bugs Pr├│ximo Sprint", "value": 30, "trend": "down", "confidence": 76 },
+      { "metric": "Tiempo Resoluci├│n", "value": "1.2 d├¡as", "trend": "stable", "confidence": 85 },
+      { "metric": "Quality Index", "value": "80%", "trend": "up", "confidence": 76 }
+    ],
+    "processMaturity": { "current": "3/5", "currentLevel": "Definido", "currentScore": 3, "q1Target": "4/5 (Gestionado Cuantitativamente)", "yearTarget": "5/5 (Optimizado)", "milestones": ["Automatizaci├│n 20% (actual: 0%)","Reducir tiempo ciclo a 1.5 d├¡as","Implement predictive metrics","Establish quality baseline","Optimizaci├│n continua"] },
+    "roi": { "earlyDetection": "4,500,000", "velocityImprovement": "15", "hotfixReduction": "80", "costSavings": 4500000, "roi": 900 }
+  }
