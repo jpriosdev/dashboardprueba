@@ -1,2707 +1,823 @@
 {
-  "summary": {
-    "totalBugs": 1000,
-    "bugsClosed": 165,
-    "bugsPending": 835,
-    "testCasesTotal": 1000,
-    "testCasesExecuted": 1000,
-    "testCasesPassed": 165,
-    "testCasesFailed": 835
-  },
-  "sprintData": [
-    {
-      "sprint": "Sprint 0",
-      "bugs": 39,
-      "bugsResolved": 16,
-      "bugsPending": 23,
-      "testCases": 39,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 1",
-      "bugs": 46,
-      "bugsResolved": 9,
-      "bugsPending": 37,
-      "testCases": 46,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 2",
-      "bugs": 65,
-      "bugsResolved": 17,
-      "bugsPending": 48,
-      "testCases": 65,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 3",
-      "bugs": 39,
-      "bugsResolved": 9,
-      "bugsPending": 30,
-      "testCases": 39,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 4",
-      "bugs": 53,
-      "bugsResolved": 14,
-      "bugsPending": 39,
-      "testCases": 53,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 5",
-      "bugs": 53,
-      "bugsResolved": 16,
-      "bugsPending": 37,
-      "testCases": 53,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 6",
-      "bugs": 42,
-      "bugsResolved": 12,
-      "bugsPending": 30,
-      "testCases": 42,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 7",
-      "bugs": 60,
-      "bugsResolved": 17,
-      "bugsPending": 43,
-      "testCases": 60,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 8",
-      "bugs": 44,
-      "bugsResolved": 6,
-      "bugsPending": 38,
-      "testCases": 44,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 9",
-      "bugs": 46,
-      "bugsResolved": 0,
-      "bugsPending": 46,
-      "testCases": 46,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 10",
-      "bugs": 53,
-      "bugsResolved": 9,
-      "bugsPending": 44,
-      "testCases": 53,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 11",
-      "bugs": 47,
-      "bugsResolved": 12,
-      "bugsPending": 35,
-      "testCases": 47,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 12",
-      "bugs": 67,
-      "bugsResolved": 17,
-      "bugsPending": 50,
-      "testCases": 67,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 13",
-      "bugs": 65,
-      "bugsResolved": 11,
-      "bugsPending": 54,
-      "testCases": 65,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 14",
-      "bugs": 48,
-      "bugsResolved": 12,
-      "bugsPending": 36,
-      "testCases": 48,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 15",
-      "bugs": 48,
-      "bugsResolved": 10,
-      "bugsPending": 38,
-      "testCases": 48,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 16",
-      "bugs": 60,
-      "bugsResolved": 16,
-      "bugsPending": 44,
-      "testCases": 60,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 17",
-      "bugs": 40,
-      "bugsResolved": 15,
-      "bugsPending": 25,
-      "testCases": 40,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 18",
-      "bugs": 36,
-      "bugsResolved": 9,
-      "bugsPending": 27,
-      "testCases": 36,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 19",
-      "bugs": 25,
-      "bugsResolved": 10,
-      "bugsPending": 15,
-      "testCases": 25,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    },
-    {
-      "sprint": "Sprint 20",
-      "bugs": 24,
-      "bugsResolved": 2,
-      "bugsPending": 22,
-      "testCases": 24,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "V1.0",
-      "environment": "PROD",
-      "startDate": "TBD"
-    }
-  ],
+  "summary": {},
+  "sprintData": [],
   "bugs": [],
-  "developerData": [
-    {
-      "name": "Mariana Cárdenas",
-      "assigned": 66,
-      "resolved": 11,
-      "pending": 55,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Lucía Fernández",
-      "assigned": 58,
-      "resolved": 9,
-      "pending": 49,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Gabriela Paredes",
-      "assigned": 57,
-      "resolved": 5,
-      "pending": 52,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Pedro Cruz",
-      "assigned": 57,
-      "resolved": 9,
-      "pending": 48,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Jorge Ramírez",
-      "assigned": 56,
-      "resolved": 8,
-      "pending": 48,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Laura Ortega",
-      "assigned": 56,
-      "resolved": 16,
-      "pending": 40,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Sofía Morales",
-      "assigned": 54,
-      "resolved": 10,
-      "pending": 44,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Valentina Castillo",
-      "assigned": 52,
-      "resolved": 10,
-      "pending": 42,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Ana López",
-      "assigned": 51,
-      "resolved": 11,
-      "pending": 40,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Camila Vargas",
-      "assigned": 49,
-      "resolved": 5,
-      "pending": 44,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Miguel Herrera",
-      "assigned": 48,
-      "resolved": 9,
-      "pending": 39,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Isabela Aguirre",
-      "assigned": 47,
-      "resolved": 8,
-      "pending": 39,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Raúl Espinosa",
-      "assigned": 47,
-      "resolved": 8,
-      "pending": 39,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Daniela Ríos",
-      "assigned": 45,
-      "resolved": 9,
-      "pending": 36,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Esteban Méndez",
-      "assigned": 45,
-      "resolved": 6,
-      "pending": 39,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Sebastián Cortés",
-      "assigned": 45,
-      "resolved": 8,
-      "pending": 37,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Paula Navarro",
-      "assigned": 44,
-      "resolved": 2,
-      "pending": 42,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Antonella Duque",
-      "assigned": 43,
-      "resolved": 10,
-      "pending": 33,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Juan Pérez",
-      "assigned": 40,
-      "resolved": 6,
-      "pending": 34,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    },
-    {
-      "name": "Mateo Linares",
-      "assigned": 40,
-      "resolved": 5,
-      "pending": 35,
-      "workload": "Alto",
-      "efficiency": 0,
-      "avgResolutionTime": 0
-    }
-  ],
-  "bugsByPriority": {
-    "Alta": {
-      "count": 239,
-      "percentage": 24,
-      "pending": 0
-    },
-    "Baja": {
-      "count": 286,
-      "percentage": 29,
-      "pending": 0
-    },
-    "Media": {
-      "count": 316,
-      "percentage": 32,
-      "pending": 0
-    },
-    "Más Alta": {
-      "count": 159,
-      "percentage": 16,
-      "pending": 0
-    }
-  },
-  "bugsByModule": {
-    "Integración": {
-      "count": 250,
-      "percentage": 25,
-      "pending": 0
-    },
-    "Funcional": {
-      "count": 400,
-      "percentage": 40,
-      "pending": 0
-    },
-    "UI/UX": {
-      "count": 200,
-      "percentage": 20,
-      "pending": 0
-    },
-    "Base de Datos": {
-      "count": 150,
-      "percentage": 15,
-      "pending": 0
-    }
-  },
-  "bugsByCategory": {
-    "Funcional": {
-      "count": 0,
-      "percentage": 0
-    },
-    "Look&Feel": {
-      "count": 0,
-      "percentage": 0
-    },
-    "Contenido/Datos": {
-      "count": 0,
-      "percentage": 0
-    },
-    "Integración": {
-      "count": 0,
-      "percentage": 0
-    }
-  },
-  "metadata": {
-    "processedAt": "2026-01-28T04:06:49.544Z",
-    "version": "2.0",
-    "configUsed": {
-      "weights": {
-        "resolutionRate": 0.3,
-        "testCoverage": 0.25,
-        "bugDensity": 0.2,
-        "criticalBugs": 0.25
-      },
-      "thresholds": {
-        "criticalBugsAlert": 20,
-        "maxBugsDeveloper": 15,
-        "criticalModulePercentage": 60,
-        "minTestCoverage": 80,
-        "maxBugTrendIncrease": 20,
-        "maxDefectDensity": 0.1,
-        "minResolutionEfficiency": 70,
-        "maxCriticalBugsRatio": 20
-      },
-      "priorities": {
-        "critical": [
-          "Más alta",
-          "Alta"
-        ],
-        "high": [
-          "Media"
-        ],
-        "low": [
-          "Baja",
-          "Más baja"
-        ]
-      },
-      "modules": {
-        "POS": {
-          "weight": 0.4,
-          "criticalThreshold": 50
-        },
-        "Inventory": {
-          "weight": 0.3,
-          "criticalThreshold": 40
-        },
-        "Reports": {
-          "weight": 0.2,
-          "criticalThreshold": 30
-        },
-        "Admin": {
-          "weight": 0.1,
-          "criticalThreshold": 20
-        }
-      }
-    },
-    "processor": "QADataProcessor"
-  },
-  "_sourceFile": null,
-  "kpis": {
-    "avgTestCasesPerSprint": 48,
-    "resolutionEfficiency": 17,
-    "qualityIndex": 59,
-    "sprintTrend": -38,
-    "defectDensity": "1.00",
-    "criticalBugsRatio": 24,
-    "averageResolutionTime": 1.2,
-    "testExecutionRate": 100,
-    "bugLeakageRate": 0,
-    "testCoverageTrend": -3,
-    "resolutionTrend": 7,
-    "criticalBugsTrend": -5,
-    "velocityTrend": [
-      { "sprint": "Sprint 0", "velocity": 33, "planned": 39, "efficiency": 85 },
-      { "sprint": "Sprint 1", "velocity": 39, "planned": 46, "efficiency": 85 },
-      { "sprint": "Sprint 2", "velocity": 55, "planned": 65, "efficiency": 85 },
-      { "sprint": "Sprint 3", "velocity": 33, "planned": 39, "efficiency": 85 },
-      { "sprint": "Sprint 4", "velocity": 45, "planned": 53, "efficiency": 85 },
-      { "sprint": "Sprint 5", "velocity": 45, "planned": 53, "efficiency": 85 },
-      { "sprint": "Sprint 6", "velocity": 36, "planned": 42, "efficiency": 86 },
-      { "sprint": "Sprint 7", "velocity": 51, "planned": 60, "efficiency": 85 },
-      { "sprint": "Sprint 8", "velocity": 37, "planned": 44, "efficiency": 84 },
-      { "sprint": "Sprint 9", "velocity": 39, "planned": 46, "efficiency": 85 },
-      { "sprint": "Sprint 10", "velocity": 45, "planned": 53, "efficiency": 85 },
-      { "sprint": "Sprint 11", "velocity": 40, "planned": 47, "efficiency": 85 },
-      { "sprint": "Sprint 12", "velocity": 57, "planned": 67, "efficiency": 85 },
-      { "sprint": "Sprint 13", "velocity": 55, "planned": 65, "efficiency": 85 },
-      { "sprint": "Sprint 14", "velocity": 41, "planned": 48, "efficiency": 85 },
-      { "sprint": "Sprint 15", "velocity": 41, "planned": 48, "efficiency": 85 },
-      { "sprint": "Sprint 16", "velocity": 51, "planned": 60, "efficiency": 85 },
-      { "sprint": "Sprint 17", "velocity": 34, "planned": 40, "efficiency": 85 },
-      { "sprint": "Sprint 18", "velocity": 31, "planned": 36, "efficiency": 86 },
-      { "sprint": "Sprint 19", "velocity": 21, "planned": 25, "efficiency": 84 },
-      { "sprint": "Sprint 20", "velocity": 20, "planned": 24, "efficiency": 83 }
-    ],
-    "burndownEfficiency": 85,
-    "reworkRate": 15,
-    "firstPassYield": 17,
-    "escapeRate": 0
-  },
-  "trends": {
-    "bugsPerSprint": [
-      { "sprint": "Sprint 0", "bugs": 39, "trend": 0, "resolved": 16, "pending": 23 },
-      { "sprint": "Sprint 1", "bugs": 46, "trend": 0, "resolved": 9, "pending": 37 },
-      { "sprint": "Sprint 2", "bugs": 65, "trend": 0, "resolved": 17, "pending": 48 },
-      { "sprint": "Sprint 3", "bugs": 39, "trend": 0, "resolved": 9, "pending": 30 },
-      { "sprint": "Sprint 4", "bugs": 53, "trend": 0, "resolved": 14, "pending": 39 },
-      { "sprint": "Sprint 5", "bugs": 53, "trend": 0, "resolved": 16, "pending": 37 },
-      { "sprint": "Sprint 6", "bugs": 42, "trend": 0, "resolved": 12, "pending": 30 },
-      { "sprint": "Sprint 7", "bugs": 60, "trend": 0, "resolved": 17, "pending": 43 },
-      { "sprint": "Sprint 8", "bugs": 44, "trend": 0, "resolved": 6, "pending": 38 },
-      { "sprint": "Sprint 9", "bugs": 46, "trend": 0, "resolved": 0, "pending": 46 },
-      { "sprint": "Sprint 10", "bugs": 53, "trend": 0, "resolved": 9, "pending": 44 },
-      { "sprint": "Sprint 11", "bugs": 47, "trend": 0, "resolved": 12, "pending": 35 },
-      { "sprint": "Sprint 12", "bugs": 67, "trend": 0, "resolved": 17, "pending": 50 },
-      { "sprint": "Sprint 13", "bugs": 65, "trend": 0, "resolved": 11, "pending": 54 },
-      { "sprint": "Sprint 14", "bugs": 48, "trend": 0, "resolved": 12, "pending": 36 },
-      { "sprint": "Sprint 15", "bugs": 48, "trend": 0, "resolved": 10, "pending": 38 },
-      { "sprint": "Sprint 16", "bugs": 60, "trend": 0, "resolved": 16, "pending": 44 },
-      { "sprint": "Sprint 17", "bugs": 40, "trend": 0, "resolved": 15, "pending": 25 },
-      { "sprint": "Sprint 18", "bugs": 36, "trend": 0, "resolved": 9, "pending": 27 },
-      { "sprint": "Sprint 19", "bugs": 25, "trend": 0, "resolved": 10, "pending": 15 },
-      { "sprint": "Sprint 20", "bugs": 24, "trend": 0, "resolved": 2, "pending": 22 }
-    ],
-    "resolutionRate": [
-      { "sprint": "Sprint 0", "resolved": 16, "pending": 23, "rate": 41, "total": 39 },
-      { "sprint": "Sprint 1", "resolved": 9, "pending": 37, "rate": 20, "total": 46 },
-      { "sprint": "Sprint 2", "resolved": 17, "pending": 48, "rate": 26, "total": 65 },
-      { "sprint": "Sprint 3", "resolved": 9, "pending": 30, "rate": 23, "total": 39 },
-      { "sprint": "Sprint 4", "resolved": 14, "pending": 39, "rate": 26, "total": 53 },
-      { "sprint": "Sprint 5", "resolved": 16, "pending": 37, "rate": 30, "total": 53 },
-      { "sprint": "Sprint 6", "resolved": 12, "pending": 30, "rate": 29, "total": 42 },
-      { "sprint": "Sprint 7", "resolved": 17, "pending": 43, "rate": 28, "total": 60 },
-      { "sprint": "Sprint 8", "resolved": 6, "pending": 38, "rate": 14, "total": 44 },
-      { "sprint": "Sprint 9", "resolved": 0, "pending": 46, "rate": 0, "total": 46 },
-      { "sprint": "Sprint 10", "resolved": 9, "pending": 44, "rate": 17, "total": 53 },
-      { "sprint": "Sprint 11", "resolved": 12, "pending": 35, "rate": 26, "total": 47 },
-      { "sprint": "Sprint 12", "resolved": 17, "pending": 50, "rate": 25, "total": 67 },
-      { "sprint": "Sprint 13", "resolved": 11, "pending": 54, "rate": 17, "total": 65 },
-      { "sprint": "Sprint 14", "resolved": 12, "pending": 36, "rate": 25, "total": 48 },
-      { "sprint": "Sprint 15", "resolved": 10, "pending": 38, "rate": 21, "total": 48 },
-      { "sprint": "Sprint 16", "resolved": 16, "pending": 44, "rate": 27, "total": 60 },
-      { "sprint": "Sprint 17", "resolved": 15, "pending": 25, "rate": 38, "total": 40 },
-      { "sprint": "Sprint 18", "resolved": 9, "pending": 27, "rate": 25, "total": 36 },
-      { "sprint": "Sprint 19", "resolved": 10, "pending": 15, "rate": 40, "total": 25 },
-      { "sprint": "Sprint 20", "resolved": 2, "pending": 22, "rate": 8, "total": 24 }
-    ],
-    "qualityImprovement": [
-      { "sprint": "Sprint 0", "quality": 30, "bugs": 39, "testCases": 39 },
-      { "sprint": "Sprint 1", "quality": 15, "bugs": 46, "testCases": 46 },
-      { "sprint": "Sprint 2", "quality": 0, "bugs": 65, "testCases": 65 },
-      { "sprint": "Sprint 3", "quality": 28, "bugs": 39, "testCases": 39 },
-      { "sprint": "Sprint 4", "quality": 2, "bugs": 53, "testCases": 53 },
-      { "sprint": "Sprint 5", "quality": 2, "bugs": 53, "testCases": 53 },
-      { "sprint": "Sprint 6", "quality": 23, "bugs": 42, "testCases": 42 },
-      { "sprint": "Sprint 7", "quality": 0, "bugs": 60, "testCases": 60 },
-      { "sprint": "Sprint 8", "quality": 18, "bugs": 44, "testCases": 44 },
-      { "sprint": "Sprint 9", "quality": 13, "bugs": 46, "testCases": 46 },
-      { "sprint": "Sprint 10", "quality": 1, "bugs": 53, "testCases": 53 },
-      { "sprint": "Sprint 11", "quality": 13, "bugs": 47, "testCases": 47 },
-      { "sprint": "Sprint 12", "quality": 0, "bugs": 67, "testCases": 67 },
-      { "sprint": "Sprint 13", "quality": 0, "bugs": 65, "testCases": 65 },
-      { "sprint": "Sprint 14", "quality": 11, "bugs": 48, "testCases": 48 },
-      { "sprint": "Sprint 15", "quality": 11, "bugs": 48, "testCases": 48 },
-      { "sprint": "Sprint 16", "quality": 0, "bugs": 60, "testCases": 60 },
-      { "sprint": "Sprint 17", "quality": 28, "bugs": 40, "testCases": 40 },
-      { "sprint": "Sprint 18", "quality": 34, "bugs": 36, "testCases": 36 },
-      { "sprint": "Sprint 19", "quality": 57, "bugs": 25, "testCases": 25 },
-      { "sprint": "Sprint 20", "quality": 55, "bugs": 24, "testCases": 24 }
-    ],
-    "velocityTrend": [
-      { "sprint": "Sprint 0", "velocity": 33, "change": 0 },
-      { "sprint": "Sprint 1", "velocity": 39, "change": 18 },
-      { "sprint": "Sprint 2", "velocity": 55, "change": 41 },
-      { "sprint": "Sprint 3", "velocity": 33, "change": -40 },
-      { "sprint": "Sprint 4", "velocity": 45, "change": 36 },
-      { "sprint": "Sprint 5", "velocity": 45, "change": 0 },
-      { "sprint": "Sprint 6", "velocity": 36, "change": -20 },
-      { "sprint": "Sprint 7", "velocity": 51, "change": 42 },
-      { "sprint": "Sprint 8", "velocity": 37, "change": -27 },
-      { "sprint": "Sprint 9", "velocity": 39, "change": 5 },
-      { "sprint": "Sprint 10", "velocity": 45, "change": 15 },
-      { "sprint": "Sprint 11", "velocity": 40, "change": -11 },
-      { "sprint": "Sprint 12", "velocity": 57, "change": 43 },
-      { "sprint": "Sprint 13", "velocity": 55, "change": -4 },
-      { "sprint": "Sprint 14", "velocity": 41, "change": -25 },
-      { "sprint": "Sprint 15", "velocity": 41, "change": 0 },
-      { "sprint": "Sprint 16", "velocity": 51, "change": 24 },
-      { "sprint": "Sprint 17", "velocity": 34, "change": -33 },
-      { "sprint": "Sprint 18", "velocity": 31, "change": -9 },
-      { "sprint": "Sprint 19", "velocity": 21, "change": -32 },
-      { "sprint": "Sprint 20", "velocity": 20, "change": -5 }
-    ],
-    "testCoverageTrend": [
-      { "sprint": "Sprint 0", "coverage": 39, "executed": 39 },
-      { "sprint": "Sprint 1", "coverage": 46, "executed": 46 },
-      { "sprint": "Sprint 2", "coverage": 65, "executed": 65 },
-      { "sprint": "Sprint 3", "coverage": 39, "executed": 39 },
-      { "sprint": "Sprint 4", "coverage": 53, "executed": 53 },
-      { "sprint": "Sprint 5", "coverage": 53, "executed": 53 },
-      { "sprint": "Sprint 6", "coverage": 42, "executed": 42 },
-      { "sprint": "Sprint 7", "coverage": 60, "executed": 60 },
-      { "sprint": "Sprint 8", "coverage": 44, "executed": 44 },
-      { "sprint": "Sprint 9", "coverage": 46, "executed": 46 },
-      { "sprint": "Sprint 10", "coverage": 53, "executed": 53 },
-      { "sprint": "Sprint 11", "coverage": 47, "executed": 47 },
-      { "sprint": "Sprint 12", "coverage": 67, "executed": 67 },
-      { "sprint": "Sprint 13", "coverage": 65, "executed": 65 },
-      { "sprint": "Sprint 14", "coverage": 48, "executed": 48 },
-      { "sprint": "Sprint 15", "coverage": 48, "executed": 48 },
-      { "sprint": "Sprint 16", "coverage": 60, "executed": 60 },
-      { "sprint": "Sprint 17", "coverage": 40, "executed": 40 },
-      { "sprint": "Sprint 18", "coverage": 36, "executed": 36 },
-      { "sprint": "Sprint 19", "coverage": 25, "executed": 25 },
-      { "sprint": "Sprint 20", "coverage": 24, "executed": 24 }
-    ],
-    "defectDensityTrend": [
-      { "sprint": "Sprint 0", "density": 1, "bugs": 39, "tests": 39 },
-      { "sprint": "Sprint 1", "density": 1, "bugs": 46, "tests": 46 },
-      { "sprint": "Sprint 2", "density": 1, "bugs": 65, "tests": 65 },
-      { "sprint": "Sprint 3", "density": 1, "bugs": 39, "tests": 39 },
-      { "sprint": "Sprint 4", "density": 1, "bugs": 53, "tests": 53 },
-      { "sprint": "Sprint 5", "density": 1, "bugs": 53, "tests": 53 },
-      { "sprint": "Sprint 6", "density": 1, "bugs": 42, "tests": 42 },
-      { "sprint": "Sprint 7", "density": 1, "bugs": 60, "tests": 60 },
-      { "sprint": "Sprint 8", "density": 1, "bugs": 44, "tests": 44 },
-      { "sprint": "Sprint 9", "density": 1, "bugs": 46, "tests": 46 },
-      { "sprint": "Sprint 10", "density": 1, "bugs": 53, "tests": 53 },
-      { "sprint": "Sprint 11", "density": 1, "bugs": 47, "tests": 47 },
-      { "sprint": "Sprint 12", "density": 1, "bugs": 67, "tests": 67 },
-      { "sprint": "Sprint 13", "density": 1, "bugs": 65, "tests": 65 },
-      { "sprint": "Sprint 14", "density": 1, "bugs": 48, "tests": 48 },
-      { "sprint": "Sprint 15", "density": 1, "bugs": 48, "tests": 48 },
-      { "sprint": "Sprint 16", "density": 1, "bugs": 60, "tests": 60 },
-      { "sprint": "Sprint 17", "density": 1, "bugs": 40, "tests": 40 },
-      { "sprint": "Sprint 18", "density": 1, "bugs": 36, "tests": 36 },
-      { "sprint": "Sprint 19", "density": 1, "bugs": 25, "tests": 25 },
-      { "sprint": "Sprint 20", "density": 1, "bugs": 24, "tests": 24 }
-    ]
-  },
-  "alerts": [
-    {
-      "id": "developer-overload",
-      "type": "warning",
-      "title": "Bug Concentration",
-      "message": "Mariana Cárdenas has 55 pending bugs",
-      "action": "Consider load redistribution",
-      "priority": 2,
-      "createdAt": "2026-01-28T04:06:49.511Z",
-      "module": "team-management"
-    }
-  ],
-  "recommendations": [
-    {
-      "id": "increase-automation",
-      "type": "efficiency",
-      "title": "Increase Automation",
-      "description": "Current automation: 0%. Goal: 80% to improve efficiency",
-      "impact": "high",
-      "effort": "high",
-      "estimatedDays": 45,
-      "category": "automation"
-    },
-    {
-      "id": "reduce-defect-density",
-      "type": "quality",
-      "title": "Reduce Defect Density",
-      "description": "Current density is 1.00. Implement stricter code reviews",
-      "impact": "medium",
-      "effort": "medium",
-      "estimatedDays": 21,
-      "category": "code-quality"
-    },
-    {
-      "id": "balance-workload",
-      "type": "team",
-      "title": "Balance Workload",
-      "description": "Mariana Cárdenas is overloaded. Redistribute bugs among the team",
-      "impact": "medium",
-      "effort": "low",
-      "estimatedDays": 3,
-      "category": "team-management"
-    }
-  ],
-  "predictions": [
-    { "metric": "Bugs Próximo Sprint", "value": 30, "trend": "down", "confidence": 76 },
-    { "metric": "Tiempo Resolución", "value": "1.2 días", "trend": "stable", "confidence": 85 },
-    { "metric": "Quality Index", "value": "80%", "trend": "up", "confidence": 76 }
-  ],
-  "processMaturity": { "current": "3/5", "currentLevel": "Definido", "currentScore": 3, "q1Target": "4/5 (Gestionado Cuantitativamente)", "yearTarget": "5/5 (Optimizado)", "milestones": ["Automatización 20% (actual: 0%)","Reducir tiempo ciclo a 1.5 días","Implement predictive metrics","Establish quality baseline","Optimización continua"] },
-  "roi": { "earlyDetection": "4,500,000", "velocityImprovement": "15", "hotfixReduction": "80", "costSavings": 4500000, "roi": 900 }
-}
-{
-  "metadata": {
-    "processedAt": "2026-01-28T03:57:38.955Z",
-    "version": "2.0",
-    "configUsed": {
-      "weights": {
-        "resolutionRate": 0.3,
-        "testCoverage": 0.25,
-        "bugDensity": 0.2,
-        "criticalBugs": 0.25
-      },
-      "thresholds": {
-        "criticalBugsAlert": 20,
-        "maxBugsDeveloper": 15,
-        "criticalModulePercentage": 60,
-        "minTestCoverage": 80,
-        "maxBugTrendIncrease": 20,
-        "maxDefectDensity": 0.1,
-        "minResolutionEfficiency": 70,
-        "maxCriticalBugsRatio": 20
-      },
-      "priorities": {
-        "critical": [
-          "Más alta",
-          "Alta"
-        ],
-        "high": [
-          "Media"
-        ],
-        "low": [
-          "Baja",
-          "Más baja"
-        ]
-      },
-      "modules": {
-        "POS": {
-          "weight": 0.4,
-          "criticalThreshold": 50
-        },
-        "Inventory": {
-          "weight": 0.3,
-          "criticalThreshold": 40
-        },
-        "Reports": {
-          "weight": 0.2,
-          "criticalThreshold": 30
-        },
-        "Admin": {
-          "weight": 0.1,
-          "criticalThreshold": 20
-        }
-      }
-    },
-    "processor": "QADataProcessor"
-  },
-  "summary": {
-    "totalBugs": 122,
-    "totalSprints": 0,
-    "criticalBugs": 0,
-    "pendingBugs": 20,
-    "bugsClosed": 102,
-    "productionBugs": 0,
-    "testCasesTotal": 408,
-    "testCasesExecuted": 408,
-    "summaryRaw": {
-      "total_bugs": 122,
-      "pending": 0,
-      "critical": 0
-    },
-    "testCasesPlanned": 408
-  },
-  "bugsByPriority": {
-    "Trivial": {
-      "count": 122,
-      "pending": 0,
-      "canceled": 0,
-      "resolved": 122
-    }
-  },
-  "bugsByModule": [],
-  "bugsByCategory": [],
   "developerData": [],
-  "sprintData": [
-    {
-      "sprint": "",
-      "bugs": 4,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 13,
-      "testPlanned": 168,
-      "testCasesPlanned": 168,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
+  {
+    "summary": {
+      "totalBugs": 1000,
+      "bugsClosed": 165,
+      "bugsPending": 835,
+      "testCasesTotal": 1000,
+      "testCasesExecuted": 1000,
+      "testCasesPassed": 165,
+      "testCasesFailed": 835
     },
-    {
-      "sprint": "Sprint 137: 10/31-11/13/24",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 0,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 138: 11/14-12/4/2024",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 2,
-      "testPlanned": 2,
-      "testCasesPlanned": 2,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 141: 1/9-1/22/25",
-      "bugs": 1,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 3,
-      "testPlanned": 3,
-      "testCasesPlanned": 3,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 143: 2/6-2/19/25",
-      "bugs": 5,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 1,
-      "testPlanned": 6,
-      "testCasesPlanned": 6,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 144: 2/20-3/5/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 23,
-      "testPlanned": 23,
-      "testCasesPlanned": 23,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 147: 4/3-4/16/25",
-      "bugs": 9,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 4,
-      "testPlanned": 4,
-      "testCasesPlanned": 4,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 148: 4/17-4/30/25",
-      "bugs": 2,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 9,
-      "testPlanned": 9,
-      "testCasesPlanned": 9,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 149: 5/1-5/14/25",
-      "bugs": 1,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 4,
-      "testPlanned": 5,
-      "testCasesPlanned": 5,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 150: 5/15-5/28/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 12,
-      "testPlanned": 13,
-      "testCasesPlanned": 13,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 151: 5/29-6/11/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 16,
-      "testPlanned": 16,
-      "testCasesPlanned": 16,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 153: 6/26 - 7/9/25",
-      "bugs": 3,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 2,
-      "testPlanned": 2,
-      "testCasesPlanned": 2,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 154: 7/10 - 7/23/25",
-      "bugs": 3,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 6,
-      "testPlanned": 7,
-      "testCasesPlanned": 7,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 155: 7/24 - 8/6/25",
-      "bugs": 10,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 5,
-      "testPlanned": 5,
-      "testCasesPlanned": 5,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 156: 8/7 - 8/20/25",
-      "bugs": 5,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 7,
-      "testPlanned": 7,
-      "testCasesPlanned": 7,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 157: 8/21 - 9/3/25",
-      "bugs": 4,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 8,
-      "testPlanned": 8,
-      "testCasesPlanned": 8,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 158: 9/4 - 9/17/25",
-      "bugs": 17,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 13,
-      "testPlanned": 13,
-      "testCasesPlanned": 13,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 159: 9/18 - 10/1/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 5,
-      "testPlanned": 5,
-      "testCasesPlanned": 5,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 160: 10/2 - 10/15/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 7,
-      "testPlanned": 7,
-      "testCasesPlanned": 7,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 161: 10/16 - 10/29/25",
-      "bugs": 6,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 8,
-      "testPlanned": 8,
-      "testCasesPlanned": 8,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 162: 10/30-11/12/25",
-      "bugs": 4,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 4,
-      "testPlanned": 4,
-      "testCasesPlanned": 4,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 164: 11/26 - 12/10/25",
-      "bugs": 10,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 5,
-      "testPlanned": 5,
-      "testCasesPlanned": 5,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 165: 12/10 - 12/24/25",
-      "bugs": 5,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 12,
-      "testPlanned": 38,
-      "testCasesPlanned": 38,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 142: 1/23-2/5/25",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 2,
-      "testPlanned": 2,
-      "testCasesPlanned": 2,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 145: 3/6-3/19/25",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 9,
-      "testPlanned": 9,
-      "testCasesPlanned": 9,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 146: 3/20-4/2/25",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 3,
-      "testPlanned": 4,
-      "testCasesPlanned": 4,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 152: 6/12 - 6/25/2025",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 19,
-      "testPlanned": 19,
-      "testCasesPlanned": 19,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 163: 11/13-11/26/25",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 2,
-      "testPlanned": 3,
-      "testCasesPlanned": 3,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-      "bugs": 2,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 1,
-      "testPlanned": 8,
-      "testCasesPlanned": 8,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-      "bugs": 1,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 1,
-      "testPlanned": 3,
-      "testCasesPlanned": 3,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 0,
-      "testPlanned": 2,
-      "testCasesPlanned": 2,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    }
-  ],
-  "kpis": {
-    "avgTestCasesPerSprint": 7,
-    "resolutionEfficiency": 84,
-    "qualityIndex": 92,
-    "sprintTrend": -100,
-    "defectDensity": "0.30",
-    "criticalBugsRatio": 0,
-    "averageResolutionTime": 4.3,
-    "testExecutionRate": 100,
-    "bugLeakageRate": 0,
-    "testCoverageTrend": 4,
-    "resolutionTrend": -2,
-    "criticalBugsTrend": -6,
-    "velocityTrend": [
+    "sprintData": [
+      {
+        "sprint": "Sprint 0",
+        "bugs": 39,
+        "bugsResolved": 16,
+        "bugsPending": 23,
+        "testCases": 39,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
+      },
       {
         "sprint": "Sprint 1",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "bugs": 46,
+        "bugsResolved": 9,
+        "bugsPending": 37,
+        "testCases": 46,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 2",
+        "bugs": 65,
+        "bugsResolved": 17,
+        "bugsPending": 48,
+        "testCases": 65,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 3",
+        "bugs": 39,
+        "bugsResolved": 9,
+        "bugsPending": 30,
+        "testCases": 39,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 4",
+        "bugs": 53,
+        "bugsResolved": 14,
+        "bugsPending": 39,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 5",
+        "bugs": 53,
+        "bugsResolved": 16,
+        "bugsPending": 37,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 6",
+        "bugs": 42,
+        "bugsResolved": 12,
+        "bugsPending": 30,
+        "testCases": 42,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 7",
+        "bugs": 60,
+        "bugsResolved": 17,
+        "bugsPending": 43,
+        "testCases": 60,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 8",
+        "bugs": 44,
+        "bugsResolved": 6,
+        "bugsPending": 38,
+        "testCases": 44,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 9",
+        "bugs": 46,
+        "bugsResolved": 0,
+        "bugsPending": 46,
+        "testCases": 46,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 10",
+        "bugs": 53,
+        "bugsResolved": 9,
+        "bugsPending": 44,
+        "testCases": 53,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 11",
+        "bugs": 47,
+        "bugsResolved": 12,
+        "bugsPending": 35,
+        "testCases": 47,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 12",
+        "bugs": 67,
+        "bugsResolved": 17,
+        "bugsPending": 50,
+        "testCases": 67,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 13",
+        "bugs": 65,
+        "bugsResolved": 11,
+        "bugsPending": 54,
+        "testCases": 65,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 14",
+        "bugs": 48,
+        "bugsResolved": 12,
+        "bugsPending": 36,
+        "testCases": 48,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 15",
+        "bugs": 48,
+        "bugsResolved": 10,
+        "bugsPending": 38,
+        "testCases": 48,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 16",
+        "bugs": 60,
+        "bugsResolved": 16,
+        "bugsPending": 44,
+        "testCases": 60,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 17",
+        "bugs": 40,
+        "bugsResolved": 15,
+        "bugsPending": 25,
+        "testCases": 40,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 18",
+        "bugs": 36,
+        "bugsResolved": 9,
+        "bugsPending": 27,
+        "testCases": 36,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 19",
+        "bugs": 25,
+        "bugsResolved": 10,
+        "bugsPending": 15,
+        "testCases": 25,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       },
       {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "velocity": 0,
-        "planned": 0,
-        "efficiency": 100
+        "sprint": "Sprint 20",
+        "bugs": 24,
+        "bugsResolved": 2,
+        "bugsPending": 22,
+        "testCases": 24,
+        "testPlanned": 0,
+        "testCasesPlanned": 0,
+        "change": 0,
+        "version": "V1.0",
+        "environment": "PROD",
+        "startDate": "TBD"
       }
     ],
-    "burndownEfficiency": 0,
-    "reworkRate": 15,
-    "firstPassYield": 0,
-    "escapeRate": 0
-  },
-  "trends": {
-    "bugsPerSprint": [
+    "bugs": [],
+    "developerData": [
       {
-        "sprint": "Sprint 1",
-        "bugs": 4,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Mariana Cárdenas",
+        "assigned": 66,
+        "resolved": 11,
+        "pending": 55,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Lucía Fernández",
+        "assigned": 58,
+        "resolved": 9,
+        "pending": 49,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Gabriela Paredes",
+        "assigned": 57,
+        "resolved": 5,
+        "pending": 52,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "bugs": 1,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Pedro Cruz",
+        "assigned": 57,
+        "resolved": 9,
+        "pending": 48,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "bugs": 5,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Jorge Ramírez",
+        "assigned": 56,
+        "resolved": 8,
+        "pending": 48,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Laura Ortega",
+        "assigned": 56,
+        "resolved": 16,
+        "pending": 40,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "bugs": 9,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Sofía Morales",
+        "assigned": 54,
+        "resolved": 10,
+        "pending": 44,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "bugs": 2,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Valentina Castillo",
+        "assigned": 52,
+        "resolved": 10,
+        "pending": 42,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "bugs": 1,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Ana López",
+        "assigned": 51,
+        "resolved": 11,
+        "pending": 40,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Camila Vargas",
+        "assigned": 49,
+        "resolved": 5,
+        "pending": 44,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Miguel Herrera",
+        "assigned": 48,
+        "resolved": 9,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "bugs": 3,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Isabela Aguirre",
+        "assigned": 47,
+        "resolved": 8,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "bugs": 3,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Raúl Espinosa",
+        "assigned": 47,
+        "resolved": 8,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "bugs": 10,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Daniela Ríos",
+        "assigned": 45,
+        "resolved": 9,
+        "pending": 36,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "bugs": 5,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Esteban Méndez",
+        "assigned": 45,
+        "resolved": 6,
+        "pending": 39,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "bugs": 4,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Sebastián Cortés",
+        "assigned": 45,
+        "resolved": 8,
+        "pending": 37,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "bugs": 17,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Paula Navarro",
+        "assigned": 44,
+        "resolved": 2,
+        "pending": 42,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Antonella Duque",
+        "assigned": 43,
+        "resolved": 10,
+        "pending": 33,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Juan Pérez",
+        "assigned": 40,
+        "resolved": 6,
+        "pending": 34,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       },
       {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "bugs": 6,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "bugs": 4,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "bugs": 10,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "bugs": 5,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "bugs": 2,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "bugs": 1,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "bugs": 0,
-        "trend": 0,
-        "resolved": 0,
-        "pending": 0
+        "name": "Mateo Linares",
+        "assigned": 40,
+        "resolved": 5,
+        "pending": 35,
+        "workload": "Alto",
+        "efficiency": 0,
+        "avgResolutionTime": 0
       }
     ],
-    "resolutionRate": [
-      {
-        "sprint": "Sprint 1",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
+    "bugsByPriority": {
+      "Alta": {
+        "count": 239,
+        "percentage": 24,
+        "pending": 0
       },
-      {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
+      "Baja": {
+        "count": 286,
+        "percentage": 29,
+        "pending": 0
       },
-      {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
+      "Media": {
+        "count": 316,
+        "percentage": 32,
+        "pending": 0
       },
-      {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "resolved": 0,
-        "pending": 0,
-        "rate": 0,
-        "total": 0
+      "Más Alta": {
+        "count": 159,
+        "percentage": 16,
+        "pending": 0
       }
-    ],
-    "qualityImprovement": [
-      {
-        "sprint": "Sprint 1",
-        "quality": 93,
-        "bugs": 4,
-        "testCases": 13
-      },
-      {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 0
-      },
-      {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 2
-      },
-      {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "quality": 98,
-        "bugs": 1,
-        "testCases": 3
-      },
-      {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "quality": 90,
-        "bugs": 5,
-        "testCases": 1
-      },
-      {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "quality": 90,
-        "bugs": 6,
-        "testCases": 23
-      },
-      {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "quality": 82,
-        "bugs": 9,
-        "testCases": 4
-      },
-      {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "quality": 97,
-        "bugs": 2,
-        "testCases": 9
-      },
-      {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "quality": 98,
-        "bugs": 1,
-        "testCases": 4
-      },
-      {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "quality": 89,
-        "bugs": 6,
-        "testCases": 12
-      },
-      {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "quality": 90,
-        "bugs": 6,
-        "testCases": 16
-      },
-      {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "quality": 94,
-        "bugs": 3,
-        "testCases": 2
-      },
-      {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "quality": 95,
-        "bugs": 3,
-        "testCases": 6
-      },
-      {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "quality": 81,
-        "bugs": 10,
-        "testCases": 5
-      },
-      {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "quality": 91,
-        "bugs": 5,
-        "testCases": 7
-      },
-      {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "quality": 93,
-        "bugs": 4,
-        "testCases": 8
-      },
-      {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "quality": 67,
-        "bugs": 17,
-        "testCases": 13
-      },
-      {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "quality": 89,
-        "bugs": 6,
-        "testCases": 5
-      },
-      {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "quality": 89,
-        "bugs": 6,
-        "testCases": 7
-      },
-      {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "quality": 89,
-        "bugs": 6,
-        "testCases": 8
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "quality": 92,
-        "bugs": 4,
-        "testCases": 4
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "quality": 81,
-        "bugs": 10,
-        "testCases": 5
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "quality": 91,
-        "bugs": 5,
-        "testCases": 12
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 2
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 9
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 3
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 19
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 2
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "quality": 96,
-        "bugs": 2,
-        "testCases": 1
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "quality": 98,
-        "bugs": 1,
-        "testCases": 1
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "quality": 100,
-        "bugs": 0,
-        "testCases": 0
-      }
-    ],
-    "velocityTrend": [
-      {
-        "sprint": "Sprint 1",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "velocity": 0,
-        "change": 0
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "velocity": 0,
-        "change": 0
-      }
-    ],
-    "testCoverageTrend": [
-      {
-        "sprint": "Sprint 1",
-        "coverage": 13,
-        "executed": 13
-      },
-      {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "coverage": 0,
-        "executed": 0
-      },
-      {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "coverage": 2,
-        "executed": 2
-      },
-      {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "coverage": 3,
-        "executed": 3
-      },
-      {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "coverage": 1,
-        "executed": 1
-      },
-      {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "coverage": 23,
-        "executed": 23
-      },
-      {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "coverage": 4,
-        "executed": 4
-      },
-      {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "coverage": 9,
-        "executed": 9
-      },
-      {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "coverage": 4,
-        "executed": 4
-      },
-      {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "coverage": 12,
-        "executed": 12
-      },
-      {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "coverage": 16,
-        "executed": 16
-      },
-      {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "coverage": 2,
-        "executed": 2
-      },
-      {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "coverage": 6,
-        "executed": 6
-      },
-      {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "coverage": 5,
-        "executed": 5
-      },
-      {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "coverage": 7.000000000000001,
-        "executed": 7
-      },
-      {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "coverage": 8,
-        "executed": 8
-      },
-      {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "coverage": 13,
-        "executed": 13
-      },
-      {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "coverage": 5,
-        "executed": 5
-      },
-      {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "coverage": 7.000000000000001,
-        "executed": 7
-      },
-      {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "coverage": 8,
-        "executed": 8
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "coverage": 4,
-        "executed": 4
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "coverage": 5,
-        "executed": 5
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "coverage": 12,
-        "executed": 12
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "coverage": 2,
-        "executed": 2
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "coverage": 9,
-        "executed": 9
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "coverage": 3,
-        "executed": 3
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "coverage": 19,
-        "executed": 19
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "coverage": 2,
-        "executed": 2
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "coverage": 1,
-        "executed": 1
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "coverage": 1,
-        "executed": 1
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "coverage": 0,
-        "executed": 0
-      }
-    ],
-    "defectDensityTrend": [
-      {
-        "sprint": "Sprint 1",
-        "density": 0.31,
-        "bugs": 4,
-        "tests": 13
-      },
-      {
-        "sprint": "Sprint 137: 10/31-11/13/24",
-        "density": 0,
-        "bugs": 0,
-        "tests": 0
-      },
-      {
-        "sprint": "Sprint 138: 11/14-12/4/2024",
-        "density": 0,
-        "bugs": 0,
-        "tests": 2
-      },
-      {
-        "sprint": "Sprint 141: 1/9-1/22/25",
-        "density": 0.33,
-        "bugs": 1,
-        "tests": 3
-      },
-      {
-        "sprint": "Sprint 143: 2/6-2/19/25",
-        "density": 5,
-        "bugs": 5,
-        "tests": 1
-      },
-      {
-        "sprint": "Sprint 144: 2/20-3/5/25",
-        "density": 0.26,
-        "bugs": 6,
-        "tests": 23
-      },
-      {
-        "sprint": "Sprint 147: 4/3-4/16/25",
-        "density": 2.25,
-        "bugs": 9,
-        "tests": 4
-      },
-      {
-        "sprint": "Sprint 148: 4/17-4/30/25",
-        "density": 0.22,
-        "bugs": 2,
-        "tests": 9
-      },
-      {
-        "sprint": "Sprint 149: 5/1-5/14/25",
-        "density": 0.25,
-        "bugs": 1,
-        "tests": 4
-      },
-      {
-        "sprint": "Sprint 150: 5/15-5/28/25",
-        "density": 0.5,
-        "bugs": 6,
-        "tests": 12
-      },
-      {
-        "sprint": "Sprint 151: 5/29-6/11/25",
-        "density": 0.38,
-        "bugs": 6,
-        "tests": 16
-      },
-      {
-        "sprint": "Sprint 153: 6/26 - 7/9/25",
-        "density": 1.5,
-        "bugs": 3,
-        "tests": 2
-      },
-      {
-        "sprint": "Sprint 154: 7/10 - 7/23/25",
-        "density": 0.5,
-        "bugs": 3,
-        "tests": 6
-      },
-      {
-        "sprint": "Sprint 155: 7/24 - 8/6/25",
-        "density": 2,
-        "bugs": 10,
-        "tests": 5
-      },
-      {
-        "sprint": "Sprint 156: 8/7 - 8/20/25",
-        "density": 0.71,
-        "bugs": 5,
-        "tests": 7
-      },
-      {
-        "sprint": "Sprint 157: 8/21 - 9/3/25",
-        "density": 0.5,
-        "bugs": 4,
-        "tests": 8
-      },
-      {
-        "sprint": "Sprint 158: 9/4 - 9/17/25",
-        "density": 1.31,
-        "bugs": 17,
-        "tests": 13
-      },
-      {
-        "sprint": "Sprint 159: 9/18 - 10/1/25",
-        "density": 1.2,
-        "bugs": 6,
-        "tests": 5
-      },
-      {
-        "sprint": "Sprint 160: 10/2 - 10/15/25",
-        "density": 0.86,
-        "bugs": 6,
-        "tests": 7
-      },
-      {
-        "sprint": "Sprint 161: 10/16 - 10/29/25",
-        "density": 0.75,
-        "bugs": 6,
-        "tests": 8
-      },
-      {
-        "sprint": "Sprint 162: 10/30-11/12/25",
-        "density": 1,
-        "bugs": 4,
-        "tests": 4
-      },
-      {
-        "sprint": "Sprint 164: 11/26 - 12/10/25",
-        "density": 2,
-        "bugs": 10,
-        "tests": 5
-      },
-      {
-        "sprint": "Sprint 165: 12/10 - 12/24/25",
-        "density": 0.42,
-        "bugs": 5,
-        "tests": 12
-      },
-      {
-        "sprint": "Sprint 142: 1/23-2/5/25",
-        "density": 0,
-        "bugs": 0,
-        "tests": 2
-      },
-      {
-        "sprint": "Sprint 145: 3/6-3/19/25",
-        "density": 0,
-        "bugs": 0,
-        "tests": 9
-      },
-      {
-        "sprint": "Sprint 146: 3/20-4/2/25",
-        "density": 0,
-        "bugs": 0,
-        "tests": 3
-      },
-      {
-        "sprint": "Sprint 152: 6/12 - 6/25/2025",
-        "density": 0,
-        "bugs": 0,
-        "tests": 19
-      },
-      {
-        "sprint": "Sprint 163: 11/13-11/26/25",
-        "density": 0,
-        "bugs": 0,
-        "tests": 2
-      },
-      {
-        "sprint": "Sprint 166: 12/24/25 - 1/7/26",
-        "density": 2,
-        "bugs": 2,
-        "tests": 1
-      },
-      {
-        "sprint": "Sprint 167: 1/8/26 - 1/21/26",
-        "density": 1,
-        "bugs": 1,
-        "tests": 1
-      },
-      {
-        "sprint": "Sprint 168: 1/22/26 - 2/4/26",
-        "density": 0,
-        "bugs": 0,
-        "tests": 0
-      }
-    ]
-  },
-  "alerts": [],
-  "recommendations": [
-    {
-      "id": "increase-automation",
-      "type": "efficiency",
-      "title": "Increase Automation",
-      "description": "Current automation: 0%. Goal: 80% to improve efficiency",
-      "impact": "high",
-      "effort": "high",
-      "estimatedDays": 45,
-      "category": "automation"
     },
-    {
-      "id": "reduce-defect-density",
-      "type": "quality",
-      "title": "Reduce Defect Density",
-      "description": "Current density is 0.30. Implement stricter code reviews",
-      "impact": "medium",
-      "effort": "medium",
-      "estimatedDays": 21,
-      "category": "code-quality"
-    }
-  ],
-  "predictions": [
-    {
-      "metric": "Bugs Próximo Sprint",
-      "value": 0,
-      "trend": "down",
-      "confidence": 60
+    "bugsByModule": {
+      "Integración": {
+        "count": 250,
+        "percentage": 25,
+        "pending": 0
+      },
+      "Funcional": {
+        "count": 400,
+        "percentage": 40,
+        "pending": 0
+      },
+      "UI/UX": {
+        "count": 200,
+        "percentage": 20,
+        "pending": 0
+      },
+      "Base de Datos": {
+        "count": 150,
+        "percentage": 15,
+        "pending": 0
+      }
     },
-    {
-      "metric": "Tiempo Resolución",
-      "value": "4.3 días",
-      "trend": "stable",
-      "confidence": 85
+    "bugsByCategory": {
+      "Funcional": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Look&Feel": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Contenido/Datos": {
+        "count": 0,
+        "percentage": 0
+      },
+      "Integración": {
+        "count": 0,
+        "percentage": 0
+      }
     },
-    {
-      "metric": "Quality Index",
-      "value": "97%",
-      "trend": "up",
-      "confidence": 60
-    }
-  ],
-  "processMaturity": {
-    "current": "3/5",
-    "currentLevel": "Definido",
-    "currentScore": 3,
-    "q1Target": "4/5 (Gestionado Cuantitativamente)",
-    "yearTarget": "5/5 (Optimizado)",
-    "milestones": [
-      "Automatización 20% (actual: 0%)",
-      "Reducir tiempo ciclo a 1.5 días",
-      "Implement predictive metrics",
-      "Establish quality baseline",
-      "Optimización continua"
-    ]
-  },
-  "roi": {
-    "earlyDetection": "549,000",
-    "velocityImprovement": "15",
-    "hotfixReduction": "80",
-    "costSavings": 549000,
-    "roi": 900
-  },
-  "_sourceFile": "C:\\Users\\ultra\\PycharmProjects\\PythonProject\\TablerosLTI\\public\\data\\qa-data.json"
-}
+    "metadata": {
+      "processedAt": "2026-01-28T04:06:49.544Z",
+      "version": "2.0",
+      "configUsed": {
+        "weights": {
+          "resolutionRate": 0.3,
+          "testCoverage": 0.25,
+          "bugDensity": 0.2,
+          "criticalBugs": 0.25
+        },
+        "thresholds": {
+          "criticalBugsAlert": 20,
+          "maxBugsDeveloper": 15,
+          "criticalModulePercentage": 60,
+          "minTestCoverage": 80,
+          "maxBugTrendIncrease": 20,
+          "maxDefectDensity": 0.1,
+          "minResolutionEfficiency": 70,
+          "maxCriticalBugsRatio": 20
+        },
+        "priorities": {
+          "critical": [
+            "Más alta",
+            "Alta"
+          ],
+          "high": [
+            "Media"
+          ],
+          "low": [
+            "Baja",
+            "Más baja"
+          ]
+        },
+        "modules": {
+          "POS": {
+            "weight": 0.4,
+            "criticalThreshold": 50
+          },
+          "Inventory": {
+            "weight": 0.3,
+            "criticalThreshold": 40
+          },
+          "Reports": {
+            "weight": 0.2,
+            "criticalThreshold": 30
+          },
+          "Admin": {
+            "weight": 0.1,
+            "criticalThreshold": 20
+          }
+        }
+      },
+      "processor": "QADataProcessor"
+    },
+    "_sourceFile": null,
+    "kpis": {
+      "avgTestCasesPerSprint": 48,
+      "resolutionEfficiency": 17,
+      "qualityIndex": 59,
+      "sprintTrend": -38,
+      "defectDensity": "1.00",
+      "criticalBugsRatio": 24,
+      "averageResolutionTime": 1.2,
+      "testExecutionRate": 100,
+      "bugLeakageRate": 0,
+      "testCoverageTrend": -3,
+      "resolutionTrend": 7,
+      "criticalBugsTrend": -5,
+      "velocityTrend": [
+        { "sprint": "Sprint 0", "velocity": 33, "planned": 39, "efficiency": 85 },
+        { "sprint": "Sprint 1", "velocity": 39, "planned": 46, "efficiency": 85 },
+        { "sprint": "Sprint 2", "velocity": 55, "planned": 65, "efficiency": 85 },
+        { "sprint": "Sprint 3", "velocity": 33, "planned": 39, "efficiency": 85 },
+        { "sprint": "Sprint 4", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 5", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 6", "velocity": 36, "planned": 42, "efficiency": 86 },
+        { "sprint": "Sprint 7", "velocity": 51, "planned": 60, "efficiency": 85 },
+        { "sprint": "Sprint 8", "velocity": 37, "planned": 44, "efficiency": 84 },
+        { "sprint": "Sprint 9", "velocity": 39, "planned": 46, "efficiency": 85 },
+        { "sprint": "Sprint 10", "velocity": 45, "planned": 53, "efficiency": 85 },
+        { "sprint": "Sprint 11", "velocity": 40, "planned": 47, "efficiency": 85 },
+        { "sprint": "Sprint 12", "velocity": 57, "planned": 67, "efficiency": 85 },
+        { "sprint": "Sprint 13", "velocity": 55, "planned": 65, "efficiency": 85 },
+        { "sprint": "Sprint 14", "velocity": 41, "planned": 48, "efficiency": 85 },
+        { "sprint": "Sprint 15", "velocity": 41, "planned": 48, "efficiency": 85 },
+        { "sprint": "Sprint 16", "velocity": 51, "planned": 60, "efficiency": 85 },
+        { "sprint": "Sprint 17", "velocity": 34, "planned": 40, "efficiency": 85 },
+        { "sprint": "Sprint 18", "velocity": 31, "planned": 36, "efficiency": 86 },
+        { "sprint": "Sprint 19", "velocity": 21, "planned": 25, "efficiency": 84 },
+        { "sprint": "Sprint 20", "velocity": 20, "planned": 24, "efficiency": 83 }
+      ],
+      "burndownEfficiency": 85,
+      "reworkRate": 15,
+      "firstPassYield": 17,
+      "escapeRate": 0
+    },
+    "trends": {
+      "bugsPerSprint": [
+        { "sprint": "Sprint 0", "bugs": 39, "trend": 0, "resolved": 16, "pending": 23 },
+        { "sprint": "Sprint 1", "bugs": 46, "trend": 0, "resolved": 9, "pending": 37 },
+        { "sprint": "Sprint 2", "bugs": 65, "trend": 0, "resolved": 17, "pending": 48 },
+        { "sprint": "Sprint 3", "bugs": 39, "trend": 0, "resolved": 9, "pending": 30 },
+        { "sprint": "Sprint 4", "bugs": 53, "trend": 0, "resolved": 14, "pending": 39 },
+        { "sprint": "Sprint 5", "bugs": 53, "trend": 0, "resolved": 16, "pending": 37 },
+        { "sprint": "Sprint 6", "bugs": 42, "trend": 0, "resolved": 12, "pending": 30 },
+        { "sprint": "Sprint 7", "bugs": 60, "trend": 0, "resolved": 17, "pending": 43 },
+        { "sprint": "Sprint 8", "bugs": 44, "trend": 0, "resolved": 6, "pending": 38 },
+        { "sprint": "Sprint 9", "bugs": 46, "trend": 0, "resolved": 0, "pending": 46 },
+        { "sprint": "Sprint 10", "bugs": 53, "trend": 0, "resolved": 9, "pending": 44 },
+        { "sprint": "Sprint 11", "bugs": 47, "trend": 0, "resolved": 12, "pending": 35 },
+        { "sprint": "Sprint 12", "bugs": 67, "trend": 0, "resolved": 17, "pending": 50 },
+        { "sprint": "Sprint 13", "bugs": 65, "trend": 0, "resolved": 11, "pending": 54 },
+        { "sprint": "Sprint 14", "bugs": 48, "trend": 0, "resolved": 12, "pending": 36 },
+        { "sprint": "Sprint 15", "bugs": 48, "trend": 0, "resolved": 10, "pending": 38 },
+        { "sprint": "Sprint 16", "bugs": 60, "trend": 0, "resolved": 16, "pending": 44 },
+        { "sprint": "Sprint 17", "bugs": 40, "trend": 0, "resolved": 15, "pending": 25 },
+        { "sprint": "Sprint 18", "bugs": 36, "trend": 0, "resolved": 9, "pending": 27 },
+        { "sprint": "Sprint 19", "bugs": 25, "trend": 0, "resolved": 10, "pending": 15 },
+        { "sprint": "Sprint 20", "bugs": 24, "trend": 0, "resolved": 2, "pending": 22 }
+      ],
+      "resolutionRate": [
+        { "sprint": "Sprint 0", "resolved": 16, "pending": 23, "rate": 41, "total": 39 },
+        { "sprint": "Sprint 1", "resolved": 9, "pending": 37, "rate": 20, "total": 46 },
+        { "sprint": "Sprint 2", "resolved": 17, "pending": 48, "rate": 26, "total": 65 },
+        { "sprint": "Sprint 3", "resolved": 9, "pending": 30, "rate": 23, "total": 39 },
+        { "sprint": "Sprint 4", "resolved": 14, "pending": 39, "rate": 26, "total": 53 },
+        { "sprint": "Sprint 5", "resolved": 16, "pending": 37, "rate": 30, "total": 53 },
+        { "sprint": "Sprint 6", "resolved": 12, "pending": 30, "rate": 29, "total": 42 },
+        { "sprint": "Sprint 7", "resolved": 17, "pending": 43, "rate": 28, "total": 60 },
+        { "sprint": "Sprint 8", "resolved": 6, "pending": 38, "rate": 14, "total": 44 },
+        { "sprint": "Sprint 9", "resolved": 0, "pending": 46, "rate": 0, "total": 46 },
+        { "sprint": "Sprint 10", "resolved": 9, "pending": 44, "rate": 17, "total": 53 },
+        { "sprint": "Sprint 11", "resolved": 12, "pending": 35, "rate": 26, "total": 47 },
+        { "sprint": "Sprint 12", "resolved": 17, "pending": 50, "rate": 25, "total": 67 },
+        { "sprint": "Sprint 13", "resolved": 11, "pending": 54, "rate": 17, "total": 65 },
+        { "sprint": "Sprint 14", "resolved": 12, "pending": 36, "rate": 25, "total": 48 },
+        { "sprint": "Sprint 15", "resolved": 10, "pending": 38, "rate": 21, "total": 48 },
+        { "sprint": "Sprint 16", "resolved": 16, "pending": 44, "rate": 27, "total": 60 },
+        { "sprint": "Sprint 17", "resolved": 15, "pending": 25, "rate": 38, "total": 40 },
+        { "sprint": "Sprint 18", "resolved": 9, "pending": 27, "rate": 25, "total": 36 },
+        { "sprint": "Sprint 19", "resolved": 10, "pending": 15, "rate": 40, "total": 25 },
+        { "sprint": "Sprint 20", "resolved": 2, "pending": 22, "rate": 8, "total": 24 }
+      ],
+      "qualityImprovement": [
+        { "sprint": "Sprint 0", "quality": 30, "bugs": 39, "testCases": 39 },
+        { "sprint": "Sprint 1", "quality": 15, "bugs": 46, "testCases": 46 },
+        { "sprint": "Sprint 2", "quality": 0, "bugs": 65, "testCases": 65 },
+        { "sprint": "Sprint 3", "quality": 28, "bugs": 39, "testCases": 39 },
+        { "sprint": "Sprint 4", "quality": 2, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 5", "quality": 2, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 6", "quality": 23, "bugs": 42, "testCases": 42 },
+        { "sprint": "Sprint 7", "quality": 0, "bugs": 60, "testCases": 60 },
+        { "sprint": "Sprint 8", "quality": 18, "bugs": 44, "testCases": 44 },
+        { "sprint": "Sprint 9", "quality": 13, "bugs": 46, "testCases": 46 },
+        { "sprint": "Sprint 10", "quality": 1, "bugs": 53, "testCases": 53 },
+        { "sprint": "Sprint 11", "quality": 13, "bugs": 47, "testCases": 47 },
+        { "sprint": "Sprint 12", "quality": 0, "bugs": 67, "testCases": 67 },
+        { "sprint": "Sprint 13", "quality": 0, "bugs": 65, "testCases": 65 },
+        { "sprint": "Sprint 14", "quality": 11, "bugs": 48, "testCases": 48 },
+        { "sprint": "Sprint 15", "quality": 11, "bugs": 48, "testCases": 48 },
+        { "sprint": "Sprint 16", "quality": 0, "bugs": 60, "testCases": 60 },
+        { "sprint": "Sprint 17", "quality": 28, "bugs": 40, "testCases": 40 },
+        { "sprint": "Sprint 18", "quality": 34, "bugs": 36, "testCases": 36 },
+        { "sprint": "Sprint 19", "quality": 57, "bugs": 25, "testCases": 25 },
+        { "sprint": "Sprint 20", "quality": 55, "bugs": 24, "testCases": 24 }
+      ],
+      "velocityTrend": [
+        { "sprint": "Sprint 0", "velocity": 33, "change": 0 },
+        { "sprint": "Sprint 1", "velocity": 39, "change": 18 },
+        { "sprint": "Sprint 2", "velocity": 55, "change": 41 },
+        { "sprint": "Sprint 3", "velocity": 33, "change": -40 },
+        { "sprint": "Sprint 4", "velocity": 45, "change": 36 },
+        { "sprint": "Sprint 5", "velocity": 45, "change": 0 },
+        { "sprint": "Sprint 6", "velocity": 36, "change": -20 },
+        { "sprint": "Sprint 7", "velocity": 51, "change": 42 },
+        { "sprint": "Sprint 8", "velocity": 37, "change": -27 },
+        { "sprint": "Sprint 9", "velocity": 39, "change": 5 },
+        { "sprint": "Sprint 10", "velocity": 45, "change": 15 },
+        { "sprint": "Sprint 11", "velocity": 40, "change": -11 },
+        { "sprint": "Sprint 12", "velocity": 57, "change": 43 },
+        { "sprint": "Sprint 13", "velocity": 55, "change": -4 },
+        { "sprint": "Sprint 14", "velocity": 41, "change": -25 },
+        { "sprint": "Sprint 15", "velocity": 41, "change": 0 },
+        { "sprint": "Sprint 16", "velocity": 51, "change": 24 },
+        { "sprint": "Sprint 17", "velocity": 34, "change": -33 },
+        { "sprint": "Sprint 18", "velocity": 31, "change": -9 },
+        { "sprint": "Sprint 19", "velocity": 21, "change": -32 },
+        { "sprint": "Sprint 20", "velocity": 20, "change": -5 }
+      ],
+      "testCoverageTrend": [
+        { "sprint": "Sprint 0", "coverage": 39, "executed": 39 },
+        { "sprint": "Sprint 1", "coverage": 46, "executed": 46 },
+        { "sprint": "Sprint 2", "coverage": 65, "executed": 65 },
+        { "sprint": "Sprint 3", "coverage": 39, "executed": 39 },
+        { "sprint": "Sprint 4", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 5", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 6", "coverage": 42, "executed": 42 },
+        { "sprint": "Sprint 7", "coverage": 60, "executed": 60 },
+        { "sprint": "Sprint 8", "coverage": 44, "executed": 44 },
+        { "sprint": "Sprint 9", "coverage": 46, "executed": 46 },
+        { "sprint": "Sprint 10", "coverage": 53, "executed": 53 },
+        { "sprint": "Sprint 11", "coverage": 47, "executed": 47 },
+        { "sprint": "Sprint 12", "coverage": 67, "executed": 67 },
+        { "sprint": "Sprint 13", "coverage": 65, "executed": 65 },
+        { "sprint": "Sprint 14", "coverage": 48, "executed": 48 },
+        { "sprint": "Sprint 15", "coverage": 48, "executed": 48 },
+        { "sprint": "Sprint 16", "coverage": 60, "executed": 60 },
+        { "sprint": "Sprint 17", "coverage": 40, "executed": 40 },
+        { "sprint": "Sprint 18", "coverage": 36, "executed": 36 },
+        { "sprint": "Sprint 19", "coverage": 25, "executed": 25 },
+        { "sprint": "Sprint 20", "coverage": 24, "executed": 24 }
+      ],
+      "defectDensityTrend": [
+        { "sprint": "Sprint 0", "density": 1, "bugs": 39, "tests": 39 },
+        { "sprint": "Sprint 1", "density": 1, "bugs": 46, "tests": 46 },
+        { "sprint": "Sprint 2", "density": 1, "bugs": 65, "tests": 65 },
+        { "sprint": "Sprint 3", "density": 1, "bugs": 39, "tests": 39 },
+        { "sprint": "Sprint 4", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 5", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 6", "density": 1, "bugs": 42, "tests": 42 },
+        { "sprint": "Sprint 7", "density": 1, "bugs": 60, "tests": 60 },
+        { "sprint": "Sprint 8", "density": 1, "bugs": 44, "tests": 44 },
+        { "sprint": "Sprint 9", "density": 1, "bugs": 46, "tests": 46 },
+        { "sprint": "Sprint 10", "density": 1, "bugs": 53, "tests": 53 },
+        { "sprint": "Sprint 11", "density": 1, "bugs": 47, "tests": 47 },
+        { "sprint": "Sprint 12", "density": 1, "bugs": 67, "tests": 67 },
+        { "sprint": "Sprint 13", "density": 1, "bugs": 65, "tests": 65 },
+        { "sprint": "Sprint 14", "density": 1, "bugs": 48, "tests": 48 },
+        { "sprint": "Sprint 15", "density": 1, "bugs": 48, "tests": 48 },
+        { "sprint": "Sprint 16", "density": 1, "bugs": 60, "tests": 60 },
+        { "sprint": "Sprint 17", "density": 1, "bugs": 40, "tests": 40 },
+        { "sprint": "Sprint 18", "density": 1, "bugs": 36, "tests": 36 },
+        { "sprint": "Sprint 19", "density": 1, "bugs": 25, "tests": 25 },
+        { "sprint": "Sprint 20", "density": 1, "bugs": 24, "tests": 24 }
+      ]
+    },
+    "alerts": [
+      {
+        "id": "developer-overload",
+        "type": "warning",
+        "title": "Bug Concentration",
+        "message": "Mariana Cárdenas has 55 pending bugs",
+        "action": "Consider load redistribution",
+        "priority": 2,
+        "createdAt": "2026-01-28T04:06:49.511Z",
+        "module": "team-management"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "increase-automation",
+        "type": "efficiency",
+        "title": "Increase Automation",
+        "description": "Current automation: 0%. Goal: 80% to improve efficiency",
+        "impact": "high",
+        "effort": "high",
+        "estimatedDays": 45,
+        "category": "automation"
+      },
+      {
+        "id": "reduce-defect-density",
+        "type": "quality",
+        "title": "Reduce Defect Density",
+        "description": "Current density is 1.00. Implement stricter code reviews",
+        "impact": "medium",
+        "effort": "medium",
+        "estimatedDays": 21,
+        "category": "code-quality"
+      },
+      {
+        "id": "balance-workload",
+        "type": "team",
+        "title": "Balance Workload",
+        "description": "Mariana Cárdenas is overloaded. Redistribute bugs among the team",
+        "impact": "medium",
+        "effort": "low",
+        "estimatedDays": 3,
+        "category": "team-management"
+      }
+    ],
+    "predictions": [
+      { "metric": "Bugs Próximo Sprint", "value": 30, "trend": "down", "confidence": 76 },
+      { "metric": "Tiempo Resolución", "value": "1.2 días", "trend": "stable", "confidence": 85 },
+      { "metric": "Quality Index", "value": "80%", "trend": "up", "confidence": 76 }
+    ],
+    "processMaturity": { "current": "3/5", "currentLevel": "Definido", "currentScore": 3, "q1Target": "4/5 (Gestionado Cuantitativamente)", "yearTarget": "5/5 (Optimizado)", "milestones": ["Automatización 20% (actual: 0%)","Reducir tiempo ciclo a 1.5 días","Implement predictive metrics","Establish quality baseline","Optimización continua"] },
+    "roi": { "earlyDetection": "4,500,000", "velocityImprovement": "15", "hotfixReduction": "80", "costSavings": 4500000, "roi": 900 }
+  }

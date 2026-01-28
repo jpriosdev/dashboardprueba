@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-28T03:57:38.958Z",
+  "timestamp": "2026-01-28T04:30:59.445Z",
   "node": "v22.14.0",
   "platform": "win32",
   "arch": "x64",
@@ -11,40 +11,13 @@
     "DATA_SOURCE": null
   },
   "git": {
-    "commit": "43e02cfd",
+    "commit": "24bca622",
     "branch": "main"
   },
   "dataSource": "C:\\Users\\ultra\\PycharmProjects\\PythonProject\\TablerosLTI\\public\\data\\qa-data.json",
-  "fallbackSample": [
-    {
-      "sprint": "",
-      "bugs": 4,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 13,
-      "testPlanned": 168,
-      "testCasesPlanned": 168,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    },
-    {
-      "sprint": "Sprint 137: 10/31-11/13/24",
-      "bugs": 0,
-      "bugsResolved": 0,
-      "bugsPending": 0,
-      "testCases": 0,
-      "testPlanned": 0,
-      "testCasesPlanned": 0,
-      "change": 0,
-      "version": "",
-      "environment": "",
-      "startDate": ""
-    }
-  ],
+  "fallbackSample": [],
   "qaSummary": {
-    "sprints": 31,
-    "totalBugs": 122
+    "sprints": 0,
+    "totalBugs": null
   }
 }
