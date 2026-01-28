@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-27T21:50:23.318Z",
+  "timestamp": "2026-01-28T03:50:53.636Z",
   "node": "v22.14.0",
   "platform": "win32",
   "arch": "x64",
@@ -8,12 +8,13 @@
     "VERCEL": null,
     "VERCEL_GIT_COMMIT_SHA": null,
     "VERCEL_GIT_COMMIT_MESSAGE": null,
-    "DATA_SOURCE": "none"
+    "DATA_SOURCE": null
   },
   "git": {
-    "commit": "9aa9e1dc",
+    "commit": "02194a61",
     "branch": "main"
   },
+  "dataSource": null,
   "qaSummary": {
     "sprints": 31,
     "totalBugs": 122

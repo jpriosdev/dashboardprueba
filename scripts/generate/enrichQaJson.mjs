@@ -20,6 +20,7 @@ async function writeDebug(data) {
       DATA_SOURCE: process.env.DATA_SOURCE || null
     },
     git: {},
+    dataSource: null,
     qaSummary: {
       sprints: (data?.sprintData && data.sprintData.length) || 0,
       totalBugs: data?.summary?.totalBugs || data?.summary?.total_bugs || null
@@ -36,6 +37,7 @@ async function writeDebug(data) {
     await fs.mkdir(path.dirname(DEBUG_PATH), { recursive: true });
     await fs.writeFile(DEBUG_PATH, JSON.stringify(debug, null, 2), 'utf8');
     console.log('ℹ️  Build debug written to', DEBUG_PATH);
+    if (debug.dataSource) console.log('ℹ️  QA data source:', debug.dataSource);
     try {
       console.log('ℹ️  Build debug content:', JSON.stringify(debug));
     } catch (e) {
@@ -50,8 +52,12 @@ async function main(){
   try{
     console.log('🔁 Enriching QA JSON (force reload)');
     const data = await getQAData({ forceReload: true });
+    const detectedSource = data?._sourceFile || data?.metadata?.sourceFilePath || process.env.DATA_SOURCE || null;
     if (data) {
       console.log('✅ QA JSON enriched. Sprints:', (data.sprintData && data.sprintData.length) || 0);
+      if (detectedSource) console.log('ℹ️  Detected QA source:', detectedSource);
+      // attach source into debug payload
+      data._sourceFile = data._sourceFile || detectedSource || null;
       await writeDebug(data);
       process.exit(0);
     }
