@@ -27,9 +27,9 @@ export default function Home() {
         <section style={{background:'#071033',borderRadius:12,padding:24,boxShadow:'0 6px 20px rgba(2,6,23,0.6)'}}>
           <p style={{marginTop:0,marginBottom:16}}>Bienvenido. Usa los enlaces para navegar a los módulos disponibles:</p>
           <nav style={{display:'flex',gap:12,flexWrap:'wrap',justifyContent:'center'}}>
-            <Link href="/qa-dashboard"><a style={linkStyle}>QA Dashboard</a></Link>
-            <Link href="/config-dashboard"><a style={linkStyle}>Config Dashboard</a></Link>
-            <Link href="/qa-dashboard"><a style={linkStyle}>Executive Dashboard</a></Link>
+            <Link href="/qa-dashboard/" className={linkStyle}>QA Dashboard</Link>
+            <Link href="/config-dashboard/" className={linkStyle}>Config Dashboard</Link>
+            <Link href="/qa-dashboard/" className={linkStyle}>Executive Dashboard</Link>
           </nav>
           <p style={{marginTop:18,opacity:0.8,fontSize:13}}>Si alguno de los enlaces falla, revisa el despliegue o abre el menú API en <code style={{background:'#07162b',padding:'2px 6px',borderRadius:4}}> /api/* </code>.</p>
         </section>
