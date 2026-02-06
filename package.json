@@ -15,12 +15,13 @@
         "db:setup": "node scripts/setup-sqlite.cjs",
         "db:verify": "node scripts/verify-setup.mjs",
         "db:info": "node scripts/show-data-source.mjs",
-        "ci:prepare": "npm run db:migrate && npm run generate-json" 
+        "ci:prepare": "npm run db:migrate && npm run generate-json"
     },
     "engines": {
         "node": "24.x"
     },
     "dependencies": {
+        "@vercel/analytics": "^1.6.1",
         "chart.js": "^4.4.0",
         "critters": "^0.0.22",
         "date-fns": "^2.30.0",
